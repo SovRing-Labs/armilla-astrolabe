@@ -1,0 +1,73 @@
+{
+ "T5": {
+  "max_modulus": 13,
+  "bits": 13.9,
+  "fits_uint8": true
+ },
+ "T15": {
+  "max_modulus": 53,
+  "bits": 63.8,
+  "fits_uint8": true
+ },
+ "T25": {
+  "max_modulus": 101,
+  "bits": 126.5,
+  "fits_uint8": true
+ },
+ "T50": {
+  "max_modulus": 233,
+  "bits": 310.1,
+  "fits_uint8": true
+ },
+ "T53": {
+  "max_modulus": 251,
+  "bits": 333.9,
+  "fits_uint8": true
+ },
+ "T55": {
+  "max_modulus": 263,
+  "bits": 349.9,
+  "fits_uint8": false
+ },
+ "T64": {
+  "max_modulus": 313,
+  "bits": 423.5,
+  "fits_uint8": false
+ },
+ "T100": {
+  "max_modulus": 547,
+  "bits": 737.8,
+  "fits_uint8": false
+ },
+ "T128": {
+  "max_modulus": 727,
+  "bits": 998.4,
+  "fits_uint8": false
+ },
+ "uint8_prime_power_set": {
+  "count": 54,
+  "bits": 362.8,
+  "moduli_head": [
+   256,
+   243,
+   125,
+   49,
+   121,
+   169
+  ]
+ },
+ "gelosia_8000bit_limb128": {
+  "exact": true,
+  "limbs": 63,
+  "gelosia_s": 0.0091,
+  "python_bigint_s": 4.023455499975626e-05,
+  "ratio_bigint_faster": 227.2
+ },
+ "gelosia_8000bit_limb150": {
+  "exact": true,
+  "limbs": 54,
+  "gelosia_s": 0.0069,
+  "python_bigint_s": 3.787123499989775e-05,
+  "ratio_bigint_faster": 181.7
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "date": "2026-10-12",
+ "cpu": "Intel Xeon @ 2.10 GHz, AVX-512 IFMA, one core",
+ "L1_16384": {
+  "moduli_per_base": 344,
+  "mismatches_step3": 0,
+  "mismatches_step4": 0,
+  "ms_per_modexp": {
+   "step3": 1064.8,
+   "step4": 852.6,
+   "gmp": 692.5,
+   "gmp_sec": 2130.5
+  },
+  "step3_vs_gmp_powmod": 0.65,
+  "step3_vs_gmp_powmod_sec": 2.0
+ },
+ "L2_comb_16384": {
+  "mismatches": 0,
+  "table_MB": 577.2,
+  "table_build_s": 649.5,
+  "ms_per_modexp": 251.9,
+  "vs_gmp_powmod": 2.75,
+  "vs_gmp_powmod_sec": 8.46
+ },
+ "L3_fast_crt_tree": {
+  "16384": {
+   "moduli": 344,
+   "exact": true,
+   "tree_extension_us_python_gmp": 1280.8
+  },
+  "32768": {
+   "moduli": 688,
+   "exact": true,
+   "tree_extension_us_python_gmp": 4039.8
+  },
+  "ifma_extension_us_est_16384": 27.0
+ }
+}

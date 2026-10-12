@@ -1,0 +1,26 @@
+{
+ "date": "2026-10-12",
+ "tokens": 8,
+ "4096x4032": {
+  "engine_exact": true,
+  "bitplane_batch_exact": true,
+  "us_per_token": {
+   "engine": 852.6,
+   "bitplane_batch": 439.3,
+   "float32_gemm": 1413.6
+  },
+  "engine_vs_bitplane": 0.52,
+  "engine_vs_float32": 1.66
+ },
+ "8192x8064": {
+  "engine_exact": true,
+  "bitplane_batch_exact": true,
+  "us_per_token": {
+   "engine": 2165.8,
+   "bitplane_batch": 1383.8,
+   "float32_gemm": 6001.5
+  },
+  "engine_vs_bitplane": 0.64,
+  "engine_vs_float32": 2.77
+ }
+}

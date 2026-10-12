@@ -1,0 +1,61 @@
+{
+ "date": "2026-10-12",
+ "layout": "1-3-7-3-1 (15 systems)",
+ "rings_per_system": 55,
+ "rings_total": 825,
+ "D1_range_and_bases": {
+  "range_bits": 13111,
+  "base_A_upper_bits": 6119,
+  "base_B_lower_bits": 6118,
+  "centre_bits": 875,
+  "max_montgomery_modulus_bits": 6116,
+  "hops_to_centre": "every system is at most 2 hops from the centre (top/bottom -> second layer -> centre)"
+ },
+ "D2_montgomery_4096": {
+  "modulus_bits": 4096,
+  "modmuls": 100,
+  "mismatches": 0,
+  "centre_check_agreed": 100,
+  "modexp_64bit_exponent_matches_pow": true,
+  "ms_per_modmul_python_reference": 96.0,
+  "security_claim": "none: correctness only, not constant-time",
+  "verdict": "PASS"
+ },
+ "D3_guard_r3": {
+  "check_systems": [
+   "top",
+   "bottom",
+   "centre"
+  ],
+  "data_range_bits": 10475,
+  "clean_ok": 200,
+  "1_faulty_right": 200,
+  "1_faulty_wrong_value": 0,
+  "2_faulty_right": 200,
+  "2_faulty_wrong_value": 0,
+  "3_faulty_right": 200,
+  "3_faulty_wrong_value": 0,
+  "rule": "corrects up to 1; while correcting, detects up to 2",
+  "verdict": "PASS"
+ },
+ "D3_guard_r4": {
+  "check_systems": [
+   "top",
+   "bottom",
+   "second.0",
+   "secondmid.0"
+  ],
+  "data_range_bits": 9598,
+  "clean_ok": 200,
+  "1_faulty_right": 200,
+  "1_faulty_wrong_value": 0,
+  "2_faulty_right": 200,
+  "2_faulty_wrong_value": 0,
+  "3_faulty_right": 200,
+  "3_faulty_wrong_value": 0,
+  "4_faulty_right": 200,
+  "4_faulty_wrong_value": 0,
+  "rule": "corrects up to 2; while correcting, detects up to 2",
+  "verdict": "PASS"
+ }
+}

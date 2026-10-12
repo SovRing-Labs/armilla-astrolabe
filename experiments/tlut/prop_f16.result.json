@@ -1,0 +1,85 @@
+{
+ "date": "2026-10-12",
+ "cpu": "Intel Xeon @ 2.10 GHz, AVX-512 VBMI, one core",
+ "4032x4032": {
+  "P1_full": {
+   "fwd_mismatches": 0,
+   "bwd_mismatches": 0,
+   "reorder_bit_identical": true,
+   "float32_fwd_outputs_not_exact": 4029,
+   "float32_bwd_outputs_not_exact": 3988,
+   "us": {
+    "fwd": 10844,
+    "bwd": 11687,
+    "float32_fwd": 3197,
+    "float32_bwd": 3019
+   }
+  },
+  "P2_window": {
+   "fwd_mismatches_vs_windowed_exact": 0,
+   "bwd_mismatches_vs_windowed_exact": 0,
+   "entry_rounded_values": {
+    "x": 1121,
+    "dy": 931,
+    "of": 4032
+   },
+   "max_rel_err_vs_exact_f16_product": {
+    "window_fwd": 0.00019467003252353473,
+    "float32_fwd": 0.0006170671921397231,
+    "window_bwd": 0.000841775275028301,
+    "float32_bwd": 0.0008998287422716322
+   },
+   "us": {
+    "fwd": 3022,
+    "bwd": 2887
+   }
+  },
+  "P3_speed_vs_float32": {
+   "full_fwd": 0.29,
+   "full_bwd": 0.26,
+   "window_fwd": 1.06,
+   "window_bwd": 1.05
+  }
+ },
+ "8064x8064": {
+  "P1_full": {
+   "fwd_mismatches": 0,
+   "bwd_mismatches": 0,
+   "reorder_bit_identical": true,
+   "float32_fwd_outputs_not_exact": 8059,
+   "float32_bwd_outputs_not_exact": 8004,
+   "us": {
+    "fwd": 33040,
+    "bwd": 53539,
+    "float32_fwd": 24564,
+    "float32_bwd": 22326
+   }
+  },
+  "P2_window": {
+   "fwd_mismatches_vs_windowed_exact": 0,
+   "bwd_mismatches_vs_windowed_exact": 0,
+   "entry_rounded_values": {
+    "x": 2310,
+    "dy": 1797,
+    "of": 8064
+   },
+   "max_rel_err_vs_exact_f16_product": {
+    "window_fwd": 0.0021517041858783114,
+    "float32_fwd": 0.0009795944415194882,
+    "window_bwd": 0.002490378084672855,
+    "float32_bwd": 0.00355261546000245
+   },
+   "us": {
+    "fwd": 12309,
+    "bwd": 14480
+   }
+  },
+  "P3_speed_vs_float32": {
+   "full_fwd": 0.74,
+   "full_bwd": 0.42,
+   "window_fwd": 2.0,
+   "window_bwd": 1.54
+  }
+ },
+ "verdict": "PASS"
+}

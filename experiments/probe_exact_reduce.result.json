@@ -1,0 +1,23 @@
+{
+ "date": "2026-10-12",
+ "G1_order_independent_sum": {
+  "values": 1000000,
+  "orders": 8,
+  "float32_distinct_results": 5,
+  "float64_distinct_results": 8,
+  "ring_distinct_results": 1,
+  "ring_equals_exact_fixed_point_sum": true,
+  "float32_spread": 0.00048828125,
+  "float64_spread": 4.75210981676355e-11,
+  "fixed_point_scale": "2^-60",
+  "entry_seconds_python": 10.1,
+  "verdict": "PASS"
+ },
+ "G2_wide_dot": {
+  "length": 1048576,
+  "true_bits": 34,
+  "int32_accumulator_correct": false,
+  "ring_correct": true,
+  "verdict": "PASS"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "date": "2026-10-12",
+ "cpu": "Intel Xeon @ 2.10 GHz, AVX-512 VBMI",
+ "data_rings": [
+  251,
+  241,
+  239
+ ],
+ "check_ring": 233,
+ "4096x4032": {
+  "C1_mismatches": 0,
+  "C1_guard_disagreements": 0,
+  "bitplane_exact": true,
+  "int8_exact": true,
+  "us": {
+   "interleaved_layer": 967.0,
+   "interleaved_bitplane": 755.7,
+   "layer_1core": 885.0,
+   "precompute": 15.8,
+   "pull": 770.1,
+   "readout": 61.1,
+   "layer_with_guard_2cores": 1594.3,
+   "guard_alone": 644.8,
+   "qkv_shared_precompute": 3417.2,
+   "bitplane": 888.1,
+   "bitplane_x3": 2810.1,
+   "int8": 2712.3,
+   "numpy_float32": 2787.3
+  },
+  "C2_layer_vs_bitplane": 1.0,
+  "C2_interleaved_layer_vs_bitplane": 0.78,
+  "C2_layer_vs_int8": 3.06,
+  "C2_layer_vs_float32": 3.15,
+  "C3_qkv_vs_bitplane_x3": 0.82,
+  "C4_guard_overhead_wall": 1.8,
+  "weight_bytes": {
+   "codes": 5505024,
+   "bitplanes": 4128768,
+   "int8": 16515072
+  }
+ },
+ "8192x8064": {
+  "C1_mismatches": 0,
+  "C1_guard_disagreements": 0,
+  "bitplane_exact": true,
+  "int8_exact": true,
+  "us": {
+   "interleaved_layer": 4864.9,
+   "interleaved_bitplane": 5277.4,
+   "layer_1core": 3978.4,
+   "precompute": 43.7,
+   "pull": 3780.7,
+   "readout": 206.5,
+   "layer_with_guard_2cores": 4315.4,
+   "guard_alone": 2645.6,
+   "qkv_shared_precompute": 16324.9,
+   "bitplane": 5674.0,
+   "bitplane_x3": 16360.2,
+   "int8": 19440.8,
+   "numpy_float32": 23406.7
+  },
+  "C2_layer_vs_bitplane": 1.43,
+  "C2_interleaved_layer_vs_bitplane": 1.08,
+  "C2_layer_vs_int8": 4.89,
+  "C2_layer_vs_float32": 5.88,
+  "C3_qkv_vs_bitplane_x3": 1.0,
+  "C4_guard_overhead_wall": 1.08,
+  "weight_bytes": {
+   "codes": 22020096,
+   "bitplanes": 16515072,
+   "int8": 66060288
+  }
+ },
+ "verdict": "PASS"
+}

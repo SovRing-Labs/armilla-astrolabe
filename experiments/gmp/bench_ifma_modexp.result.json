@@ -1,0 +1,43 @@
+{
+ "date": "2026-10-12",
+ "cpu": "Intel Xeon @ 2.10 GHz, AVX-512 IFMA, one core",
+ "gmp": "GMP 6.3.0",
+ "rings": "primes 2^48 - c, c < 2^16",
+ "1024": {
+  "moduli_per_base": 24,
+  "mismatches": 0,
+  "rns_ifma_us_per_modmul": 0.489,
+  "gmp_us_per_modmul": 0.42,
+  "rns_vs_gmp_speed": 0.86,
+  "rns_ms_per_modexp": 0.745,
+  "gmp_ms_per_modexp": 0.639
+ },
+ "2048": {
+  "moduli_per_base": 48,
+  "mismatches": 0,
+  "rns_ifma_us_per_modmul": 1.424,
+  "gmp_us_per_modmul": 1.618,
+  "rns_vs_gmp_speed": 1.14,
+  "rns_ms_per_modexp": 4.322,
+  "gmp_ms_per_modexp": 4.91
+ },
+ "3072": {
+  "moduli_per_base": 72,
+  "mismatches": 0,
+  "rns_ifma_us_per_modmul": 2.762,
+  "gmp_us_per_modmul": 3.043,
+  "rns_vs_gmp_speed": 1.1,
+  "rns_ms_per_modexp": 12.766,
+  "gmp_ms_per_modexp": 14.063
+ },
+ "4096": {
+  "moduli_per_base": 88,
+  "mismatches": 0,
+  "rns_ifma_us_per_modmul": 2.27,
+  "gmp_us_per_modmul": 2.542,
+  "rns_vs_gmp_speed": 1.12,
+  "rns_ms_per_modexp": 13.946,
+  "gmp_ms_per_modexp": 15.613
+ },
+ "verdict": "PASS (exact)"
+}

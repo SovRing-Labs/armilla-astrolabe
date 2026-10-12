@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-12",
+ "rings": [
+  251,
+  241,
+  239
+ ],
+ "4096x3840": {
+  "mismatches": {
+   "3trit": 0,
+   "5trit": 0,
+   "bitplane": 0
+  },
+  "us": {
+   "3trit": 946.6,
+   "5trit": 949.2,
+   "bitplane": 960.4
+  },
+  "5trit_precompute_us": 71.7,
+  "weight_bytes": {
+   "3trit": 5242880,
+   "5trit": 3145728,
+   "bitplane": 3932160
+  },
+  "5trit_vs_3trit_speed": 1.0,
+  "5trit_vs_bitplane_speed": 1.01
+ },
+ "8192x7680": {
+  "mismatches": {
+   "3trit": 0,
+   "5trit": 0,
+   "bitplane": 0
+  },
+  "us": {
+   "3trit": 4761.1,
+   "5trit": 3443.7,
+   "bitplane": 5214.2
+  },
+  "5trit_precompute_us": 172.5,
+  "weight_bytes": {
+   "3trit": 20971520,
+   "5trit": 12582912,
+   "bitplane": 15728640
+  },
+  "5trit_vs_3trit_speed": 1.38,
+  "5trit_vs_bitplane_speed": 1.51
+ },
+ "verdict": "PASS"
+}

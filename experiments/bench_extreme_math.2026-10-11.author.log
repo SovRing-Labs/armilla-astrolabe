@@ -1,0 +1,15 @@
+======================================================================
+EXTREME DYNAMIC RANGE BENCHMARK: CARRY-RIPPLE vs ZERO-CARRY OMNIRING
+======================================================================
+
+[1] 3,000-bit Integer Carry Arithmetic (Python BigInt ALU):
+  Time: 0.3742s | Cycles/sec: 53,445.9 | Latency: 18.71 µs/op
+
+[2] Omniring Diamond Topology (50 Cyclotomic Rings, Zero Carry):
+  Time: 0.0459s | Cycles/sec: 435,520.9 | Latency: 2.30 µs/op
+
+[3] Extreme Scaling to 8,000-bit Integers (val^2):
+  8,000-bit BigInt multiplication time: 0.2304s (latency: 46.08 µs)
+  Omniring RNS multiplication time:     0.0071s (latency: 1.41 µs)
+  --> Omniring Speedup over 8,000-bit carry multiply: 32.63x faster!
+======================================================================

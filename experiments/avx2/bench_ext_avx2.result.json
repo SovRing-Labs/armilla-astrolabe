@@ -1,0 +1,26 @@
+{
+ "date": "2026-10-12",
+ "build": "gcc -O3 -mavx2 -mno-avx512f",
+ "zmm_or_ifma_in_asm": false,
+ "80": {
+  "plain_exact": true,
+  "wino_exact": true,
+  "plain_us": 10.34,
+  "wino_us": 14.91,
+  "wino_speedup": 0.69
+ },
+ "152": {
+  "plain_exact": true,
+  "wino_exact": true,
+  "plain_us": 15.74,
+  "wino_us": 26.18,
+  "wino_speedup": 0.6
+ },
+ "304": {
+  "plain_exact": true,
+  "wino_exact": true,
+  "plain_us": 48.4,
+  "wino_us": 82.42,
+  "wino_speedup": 0.59
+ }
+}

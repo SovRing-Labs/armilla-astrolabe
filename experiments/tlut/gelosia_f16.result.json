@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-12",
+ "rings": [
+  251,
+  241,
+  239,
+  233,
+  229,
+  227,
+  223
+ ],
+ "digits": 6,
+ "activation": "f16, exact fixed point X = x * 2^24",
+ "4096x4032": {
+  "F1_mismatches_vs_exact": 0,
+  "F2_float32_outputs_not_exact": 4094,
+  "F2_float32_max_rel_err": 0.00047358319693583366,
+  "F3_order_independent_bit_identical": true,
+  "render_compile_ms": 699.3,
+  "table_sets": 42,
+  "us": {
+   "engine": 9972.6,
+   "numpy_float32_gemv": 2506.5,
+   "precompute": 205.4,
+   "pull": 7828.2
+  },
+  "engine_vs_float32": 0.25
+ },
+ "8192x8064": {
+  "F1_mismatches_vs_exact": 0,
+  "F2_float32_outputs_not_exact": 8187,
+  "F2_float32_max_rel_err": 0.0006551319636759281,
+  "F3_order_independent_bit_identical": true,
+  "render_compile_ms": 530.2,
+  "table_sets": 42,
+  "us": {
+   "engine": 36372.5,
+   "numpy_float32_gemv": 24034.1,
+   "precompute": 341.3,
+   "pull": 30979.2
+  },
+  "engine_vs_float32": 0.66
+ },
+ "verdict": "PASS"
+}

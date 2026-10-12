@@ -1,0 +1,40 @@
+{
+ "date": "2026-10-12",
+ "method": "fixed-base comb, 5-bit windows, constant-time table scan, batches of 8, RNS-IFMA step 3",
+ "2048": {
+  "messages_checked": 64,
+  "mismatches": 0,
+  "table_MB": 10.1,
+  "table_build_s_python": 1.5,
+  "ms_per_modexp": {
+   "comb1": 0.577,
+   "gmp1": 3.007,
+   "sec1": 4.503,
+   "comb4": 0.145,
+   "gmp4": 1.092,
+   "sec4": 1.278
+  },
+  "1core_vs_powmod": 5.21,
+  "1core_vs_powmod_sec": 7.8,
+  "4core_vs_powmod": 7.53,
+  "4core_vs_powmod_sec": 8.81
+ },
+ "4096": {
+  "messages_checked": 64,
+  "mismatches": 0,
+  "table_MB": 36.9,
+  "table_build_s_python": 10.9,
+  "ms_per_modexp": {
+   "comb1": 2.616,
+   "gmp1": 22.482,
+   "sec1": 32.114,
+   "comb4": 0.634,
+   "gmp4": 6.035,
+   "sec4": 9.551
+  },
+  "1core_vs_powmod": 8.59,
+  "1core_vs_powmod_sec": 12.28,
+  "4core_vs_powmod": 9.52,
+  "4core_vs_powmod_sec": 15.06
+ }
+}

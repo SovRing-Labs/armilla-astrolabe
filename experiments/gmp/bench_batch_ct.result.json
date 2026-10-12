@@ -1,0 +1,51 @@
+{
+ "date": "2026-10-12",
+ "cpu": "Intel Xeon @ 2.10 GHz, 4 vCPU, AVX-512 IFMA",
+ "gmp": "GMP 6.3.0",
+ "method": "RNS-IFMA, batches of 8, fixed 5-bit windows, constant-time table scan, OpenMP over batches",
+ "2048": {
+  "moduli_per_base": 48,
+  "messages_checked": 128,
+  "mismatches": 0,
+  "ms_per_modexp": {
+   "rns1": 1.732,
+   "gmp1": 2.76,
+   "gsec1": 3.577,
+   "rns4": 0.571,
+   "gmp4": 0.916,
+   "gsec4": 1.078
+  },
+  "one_core_vs_gmp_powmod": 1.59,
+  "one_core_vs_gmp_powmod_sec": 2.07,
+  "four_cores_vs_gmp_powmod": 1.61,
+  "four_cores_vs_gmp_powmod_sec": 1.89,
+  "B3_welch_t_zero_vs_random_exponent": 0.37,
+  "B3_means_ms": [
+   15.898,
+   15.803
+  ]
+ },
+ "4096": {
+  "moduli_per_base": 88,
+  "messages_checked": 128,
+  "mismatches": 0,
+  "ms_per_modexp": {
+   "rns1": 9.672,
+   "gmp1": 22.824,
+   "gsec1": 28.607,
+   "rns4": 2.502,
+   "gmp4": 6.611,
+   "gsec4": 8.406
+  },
+  "one_core_vs_gmp_powmod": 2.36,
+  "one_core_vs_gmp_powmod_sec": 2.96,
+  "four_cores_vs_gmp_powmod": 2.64,
+  "four_cores_vs_gmp_powmod_sec": 3.36,
+  "B3_welch_t_zero_vs_random_exponent": 0.4,
+  "B3_means_ms": [
+   78.492,
+   78.023
+  ]
+ },
+ "verdict": "PASS"
+}

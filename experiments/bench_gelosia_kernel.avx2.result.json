@@ -1,0 +1,30 @@
+{
+ "label": "avx2",
+ "host_cpus": 4,
+ "gmp": "GMP 6.3.0",
+ "2000bit": {
+  "pairs": 50,
+  "mismatches": 0,
+  "limb_bits": 150,
+  "boxes": 196,
+  "core_us": 16.81,
+  "convert_in_us": 256.8,
+  "convert_out_us": 323.8,
+  "gmp_mul_us": 0.738,
+  "python_int_mul_us": 4.502,
+  "core_vs_gmp": 22.8
+ },
+ "8000bit": {
+  "pairs": 50,
+  "mismatches": 0,
+  "limb_bits": 150,
+  "boxes": 2916,
+  "core_us": 35.41,
+  "convert_in_us": 867.6,
+  "convert_out_us": 1434.2,
+  "gmp_mul_us": 6.855,
+  "python_int_mul_us": 44.958,
+  "core_vs_gmp": 5.2
+ },
+ "verdict": "PASS (exact)"
+}

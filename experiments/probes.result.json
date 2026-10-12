@@ -1,0 +1,105 @@
+{
+ "date": "2026-10-12",
+ "host": {
+  "cpu_count": 4,
+  "python": "3.13.16",
+  "numpy": "2.5.3"
+ },
+ "P0_old_claims": {
+  "ring_range_bits": 311,
+  "8000bit_ring_product_equals_true_product": false,
+  "8000bit_ring_product_equals_product_mod_M": true,
+  "old_core_sum_r_over_m_corr_with_X_over_M_n4000": 0.0084,
+  "old_relu_zeroed_share_of_2000_positive_values_below_1e6": 0.5,
+  "verdict": "old 8000-bit and Zero-CRT ReLU claims do not hold"
+ },
+ "P1_sign_relu": {
+  "rings": 50,
+  "range_bits": 311,
+  "values": 26002,
+  "edge_values_near_0_and_M_over_2": 6002,
+  "wrong": 0,
+  "exact_fallbacks": 6002,
+  "us_per_sign_random_values_incl_residue_build": 12.48,
+  "verdict": "PASS"
+ },
+ "P2_hexad": {
+  "systems": {
+   "A": {
+    "rings": 70,
+    "bits": 1116.2
+   },
+   "B": {
+    "rings": 70,
+    "bits": 1116.2
+   },
+   "C": {
+    "rings": 70,
+    "bits": 1116.2
+   },
+   "centre": {
+    "rings": 70,
+    "bits": 1116.2
+   },
+   "top": {
+    "rings": 70,
+    "bits": 1116.2
+   },
+   "bottom": {
+    "rings": 70,
+    "bits": 1116.2
+   }
+  },
+  "lane": "uint16 residues (primes 2^15..2^16)",
+  "total_range_bits": 6698,
+  "trials": 600,
+  "mismatches": 0,
+  "seconds": 1.52,
+  "verdict": "PASS"
+ },
+ "P3_evolved_gelosia": {
+  "2000bit_limb150": {
+   "pairs": 20,
+   "mismatches": 0,
+   "boxes": 196,
+   "worst_diagonal_bits": 304,
+   "range_bits": 311,
+   "gelosia_ms_python": 2.203,
+   "python_int_ms": 0.01
+  },
+  "8000bit_limb150": {
+   "pairs": 20,
+   "mismatches": 0,
+   "boxes": 2916,
+   "worst_diagonal_bits": 306,
+   "range_bits": 311,
+   "gelosia_ms_python": 8.829,
+   "python_int_ms": 0.0572
+  },
+  "8000bit_limb128": {
+   "pairs": 20,
+   "mismatches": 0,
+   "boxes": 3969,
+   "worst_diagonal_bits": 262,
+   "range_bits": 311,
+   "gelosia_ms_python": 9.092,
+   "python_int_ms": 0.0464
+  },
+  "limb_200_guard": "raised: limb too large for a 311-bit range (as designed)",
+  "verdict": "PASS"
+ },
+ "P4_rns_montgomery": {
+  "modulus_bits": 2047,
+  "base_A_triangle_bits": 3349,
+  "base_B_top_bottom_bits": 2233,
+  "centre_check_bits": 1117,
+  "base_extension": "exact mixed-radix (reference method, not the fast approximate one)",
+  "modmuls": 200,
+  "mismatches": 0,
+  "centre_check_agreed": 200,
+  "modexp_64bit_exponent_matches_pow": true,
+  "ms_per_modmul_python_reference": 30.2,
+  "security_claim": "none: correctness probe only; not constant-time",
+  "verdict": "PASS"
+ }
+}

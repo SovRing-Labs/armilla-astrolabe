@@ -1,0 +1,77 @@
+{
+ "date": "2026-10-12",
+ "rings_per_system": 55,
+ "N1_range_and_crypto_fit": {
+  "6 (k=3)": {
+   "systems": 6,
+   "rings": 330,
+   "range_bits": 5266,
+   "base_A_middle_bits": 2633,
+   "base_B_top_bottom_bits": 1755,
+   "max_montgomery_modulus_bits": 1754
+  },
+  "8 (k=5)": {
+   "systems": 8,
+   "rings": 440,
+   "range_bits": 7015,
+   "base_A_middle_bits": 4384,
+   "base_B_top_bottom_bits": 1754,
+   "max_montgomery_modulus_bits": 1752
+  },
+  "10 (k=7)": {
+   "systems": 10,
+   "rings": 550,
+   "range_bits": 8761,
+   "base_A_middle_bits": 6133,
+   "base_B_top_bottom_bits": 1752,
+   "max_montgomery_modulus_bits": 1751
+  }
+ },
+ "N2_guard_mode": {
+  "6 (k=3)": {
+   "clean_ok": 200,
+   "one_fault_corrected": 200,
+   "one_fault_wrong": 0,
+   "two_fault_detected": 200,
+   "two_fault_missed": 0,
+   "trials": 200,
+   "data_range_bits": 3508,
+   "redundant_systems": 2,
+   "verdict": "PASS"
+  },
+  "8 (k=5)": {
+   "clean_ok": 200,
+   "one_fault_corrected": 200,
+   "one_fault_wrong": 0,
+   "two_fault_detected": 200,
+   "two_fault_missed": 0,
+   "trials": 200,
+   "data_range_bits": 5257,
+   "redundant_systems": 2,
+   "verdict": "PASS"
+  },
+  "10 (k=7)": {
+   "clean_ok": 200,
+   "one_fault_corrected": 200,
+   "one_fault_wrong": 0,
+   "two_fault_detected": 200,
+   "two_fault_missed": 0,
+   "trials": 200,
+   "data_range_bits": 7003,
+   "redundant_systems": 2,
+   "verdict": "PASS"
+  }
+ },
+ "N3_jit_centre": {
+  "shape": "8,000-bit operands, 54 limbs of 150 bits, 2916 boxes x 50 rings per turn",
+  "render_and_compile_ms": 175.8,
+  "turns": 2000,
+  "identical_diagonals": "200/200",
+  "jit_us_per_turn": 26.54,
+  "generic_us_per_turn": 30.37,
+  "jit_speedup_vs_generic": 1.14,
+  "ring_products_per_second_jit": 5493118842,
+  "note": "data already in residues (conversion is paid once at entry/exit, not per turn); includes ctypes call overhead",
+  "verdict": "PASS"
+ }
+}

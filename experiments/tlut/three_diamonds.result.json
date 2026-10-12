@@ -1,0 +1,102 @@
+{
+ "date": "2026-10-12",
+ "cpu": "4 vCPU Xeon @ 2.10 GHz, AVX-512 VBMI",
+ "diamonds": 3,
+ "group_major:6144x7680": {
+  "D1_mismatches": {
+   "one_diamond": 0,
+   "three_rows": 0,
+   "three_rings": 0,
+   "bitplane_3core": 0
+  },
+  "D2_us": {
+   "one_diamond": 2858.1,
+   "three_rows": 2993.6,
+   "three_rings": 2599.9,
+   "bitplane_3core": 2271.6,
+   "float32_3core": 6095.7
+  },
+  "three_rows_vs_one": 0.95,
+  "three_rings_vs_one": 1.1,
+  "three_rows_vs_bitplane_3core": 0.76,
+  "three_rows_vs_float32_3core": 2.04,
+  "weight_MB": {
+   "5trit_codes": 9.4,
+   "bitplanes": 11.8,
+   "float32": 188.7
+  }
+ },
+ "group_major:12288x7680": {
+  "D1_mismatches": {
+   "one_diamond": 0,
+   "three_rows": 0,
+   "three_rings": 0,
+   "bitplane_3core": 0
+  },
+  "D2_us": {
+   "one_diamond": 5596.8,
+   "three_rows": 4080.7,
+   "three_rings": 4276.8,
+   "bitplane_3core": 4083.3,
+   "float32_3core": 12808.5
+  },
+  "three_rows_vs_one": 1.37,
+  "three_rings_vs_one": 1.31,
+  "three_rows_vs_bitplane_3core": 1.0,
+  "three_rows_vs_float32_3core": 3.14,
+  "weight_MB": {
+   "5trit_codes": 18.9,
+   "bitplanes": 23.6,
+   "float32": 377.5
+  }
+ },
+ "row_block_major:6144x7680": {
+  "D1_mismatches": {
+   "one_diamond": 0,
+   "three_rows": 0,
+   "three_rings": 0,
+   "bitplane_3core": 0
+  },
+  "D2_us": {
+   "one_diamond": 3615.6,
+   "three_rows": 2873.8,
+   "three_rings": 3223.1,
+   "bitplane_3core": 2347.3,
+   "float32_3core": 6591.6
+  },
+  "three_rows_vs_one": 1.26,
+  "three_rings_vs_one": 1.12,
+  "three_rows_vs_bitplane_3core": 0.82,
+  "three_rows_vs_float32_3core": 2.29,
+  "weight_MB": {
+   "5trit_codes": 9.4,
+   "bitplanes": 11.8,
+   "float32": 188.7
+  }
+ },
+ "row_block_major:12288x7680": {
+  "D1_mismatches": {
+   "one_diamond": 0,
+   "three_rows": 0,
+   "three_rings": 0,
+   "bitplane_3core": 0
+  },
+  "D2_us": {
+   "one_diamond": 7251.2,
+   "three_rows": 4506.9,
+   "three_rings": 4849.3,
+   "bitplane_3core": 3797.9,
+   "float32_3core": 12897.5
+  },
+  "three_rows_vs_one": 1.61,
+  "three_rings_vs_one": 1.5,
+  "three_rows_vs_bitplane_3core": 0.84,
+  "three_rows_vs_float32_3core": 2.86,
+  "weight_MB": {
+   "5trit_codes": 18.9,
+   "bitplanes": 23.6,
+   "float32": 377.5
+  }
+ },
+ "verdict": "PASS"
+}

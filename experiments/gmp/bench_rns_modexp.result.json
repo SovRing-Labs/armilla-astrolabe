@@ -1,0 +1,20 @@
+{
+ "date": "2026-10-12",
+ "cpu": "Intel Xeon @ 2.10 GHz, AVX-512 (DQ, IFMA present, not yet used)",
+ "gmp": "GMP 6.3.0",
+ "2048": {
+  "moduli_per_base": 96,
+  "mismatches": 0,
+  "rns_us_per_modmul": 2.455,
+  "gmp_us_per_modmul": 1.133,
+  "gmp_faster_by": 2.17
+ },
+ "4096": {
+  "moduli_per_base": 160,
+  "mismatches": 0,
+  "rns_us_per_modmul": 7.465,
+  "gmp_us_per_modmul": 4.447,
+  "gmp_faster_by": 1.68
+ },
+ "verdict": "PASS (exact)"
+}

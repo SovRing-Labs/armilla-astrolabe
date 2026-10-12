@@ -1,0 +1,14 @@
+[*] Algebraic Correctness Verified: CRT Reconstructed 48477232722 equals BigInt mod M.
+[*] Running Comprehensive Power Benchmark (200,000 cycles)...
+{
+  "iterations": 200000,
+  "ring_count": 50,
+  "dynamic_range": "10^93 states (50 primes 3..233)",
+  "bigint_carry_time_s": 0.0174,
+  "bigint_cycles_per_sec": 11476102.82,
+  "diamond_abacus_simd_time_s": 0.4458,
+  "diamond_cycles_per_sec": 448620.11,
+  "effective_ring_mops": 67.29,
+  "latency_per_diamond_ns": 2229.06,
+  "speedup_vs_python_eval": 0.04
+}

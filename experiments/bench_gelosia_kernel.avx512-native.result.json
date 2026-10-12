@@ -1,0 +1,30 @@
+{
+ "label": "avx512-native",
+ "host_cpus": 4,
+ "gmp": "GMP 6.3.0",
+ "2000bit": {
+  "pairs": 50,
+  "mismatches": 0,
+  "limb_bits": 150,
+  "boxes": 196,
+  "core_us": 8.14,
+  "convert_in_us": 128.0,
+  "convert_out_us": 182.3,
+  "gmp_mul_us": 0.48,
+  "python_int_mul_us": 3.005,
+  "core_vs_gmp": 16.9
+ },
+ "8000bit": {
+  "pairs": 50,
+  "mismatches": 0,
+  "limb_bits": 150,
+  "boxes": 2916,
+  "core_us": 26.34,
+  "convert_in_us": 697.3,
+  "convert_out_us": 1092.6,
+  "gmp_mul_us": 5.814,
+  "python_int_mul_us": 38.566,
+  "core_vs_gmp": 4.5
+ },
+ "verdict": "PASS (exact)"
+}

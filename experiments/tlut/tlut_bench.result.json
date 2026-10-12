@@ -1,0 +1,88 @@
+{
+ "date": "2026-10-12",
+ "cpu": "Intel Xeon @ 2.10 GHz, AVX-512 VBMI, one core",
+ "rings": {
+  "data": [
+   251,
+   241,
+   239
+  ],
+  "check": 233
+ },
+ "range_bits": 24,
+ "4096x4032": {
+  "T1_mismatches_vs_int64": 0,
+  "T1_check_ring_agrees_all": true,
+  "engine3_vs_int8": 1.25,
+  "engine3_vs_bitplane": 0.42,
+  "pull3_vs_bitplane": 0.78,
+  "engine3_vs_numpy_float32": 1.3,
+  "engine2_vs_int8": 1.06,
+  "engine2_vs_bitplane": 0.36,
+  "engine2_vs_numpy_float32": 1.1,
+  "int8_baseline_exact": true,
+  "bitplane_baseline_exact": true,
+  "weight_bytes": {
+   "pull_engine_codes": 5505024,
+   "int8": 16515072,
+   "bitplanes": 4128768,
+   "float32": 66060288
+  },
+  "us": {
+   "engine3_total": 2009.0,
+   "pull3": 1094.3,
+   "engine2_total": 2375.7,
+   "precompute2": 734.2,
+   "pull2": 1162.3,
+   "engine_total": 4394.4,
+   "precompute": 791.3,
+   "pull": 2890.8,
+   "readout": 92.6,
+   "int8_gemv": 2519.5,
+   "bitplane_gemv": 850.8,
+   "numpy_float32_gemv": 2620.2
+  },
+  "engine_vs_int8": 0.57,
+  "engine_vs_bitplane": 0.19,
+  "engine_vs_numpy_float32": 0.6,
+  "relu_requant_next_layer_nonzero": 1992
+ },
+ "8192x8064": {
+  "T1_mismatches_vs_int64": 0,
+  "T1_check_ring_agrees_all": true,
+  "engine3_vs_int8": 3.22,
+  "engine3_vs_bitplane": 0.62,
+  "pull3_vs_bitplane": 0.81,
+  "engine3_vs_numpy_float32": 3.48,
+  "engine2_vs_int8": 2.94,
+  "engine2_vs_bitplane": 0.56,
+  "engine2_vs_numpy_float32": 3.18,
+  "int8_baseline_exact": true,
+  "bitplane_baseline_exact": true,
+  "weight_bytes": {
+   "pull_engine_codes": 22020096,
+   "int8": 66060288,
+   "bitplanes": 16515072,
+   "float32": 264241152
+  },
+  "us": {
+   "engine3_total": 6318.5,
+   "pull3": 4795.5,
+   "engine2_total": 6917.7,
+   "precompute2": 1441.6,
+   "pull2": 4432.1,
+   "engine_total": 15317.8,
+   "precompute": 1937.4,
+   "pull": 12109.6,
+   "readout": 178.5,
+   "int8_gemv": 20349.5,
+   "bitplane_gemv": 3906.4,
+   "numpy_float32_gemv": 21984.7
+  },
+  "engine_vs_int8": 1.33,
+  "engine_vs_bitplane": 0.26,
+  "engine_vs_numpy_float32": 1.44,
+  "relu_requant_next_layer_nonzero": 4017
+ },
+ "verdict": "PASS"
+}

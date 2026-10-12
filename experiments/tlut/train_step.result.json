@@ -1,0 +1,43 @@
+{
+ "date": "2026-10-12",
+ "tokens": 256,
+ "harnesses": 8,
+ "cpu": "one core, AVX-512 VBMI",
+ "960": {
+  "T1": {
+   "forward_mismatches": 0,
+   "backward_mismatches": 0,
+   "dW_mismatches": 0
+  },
+  "T2": {
+   "exact_L_bit_identical": true,
+   "exact_W_bit_identical": true,
+   "float32_latent_entries_differing": 118026,
+   "of": 921600
+  },
+  "T3_ms": {
+   "exact_step": 108.0,
+   "float32_step": 26.6
+  },
+  "exact_vs_float32_speed": 0.25
+ },
+ "1920": {
+  "T1": {
+   "forward_mismatches": 0,
+   "backward_mismatches": 0,
+   "dW_mismatches": 0
+  },
+  "T2": {
+   "exact_L_bit_identical": true,
+   "exact_W_bit_identical": true,
+   "float32_latent_entries_differing": 439972,
+   "of": 3686400
+  },
+  "T3_ms": {
+   "exact_step": 467.3,
+   "float32_step": 110.0
+  },
+  "exact_vs_float32_speed": 0.24
+ },
+ "verdict": "PASS"
+}

@@ -1,0 +1,65 @@
+{
+ "date": "2026-10-12",
+ "cpu": "Intel Xeon @ 2.10 GHz, AVX-512 IFMA, one core",
+ "gmp": "GMP 6.3.0",
+ "2048": {
+  "moduli_per_base": 48,
+  "messages": 32,
+  "mismatches_step4": 0,
+  "mismatches_step3": 0,
+  "ms_per_modexp": {
+   "step4": 2.599,
+   "step3": 2.354,
+   "gmp": 3.023,
+   "gmp_sec": 5.242
+  },
+  "step4_vs_step3": 0.91,
+  "step4_vs_gmp_powmod": 1.16,
+  "step4_vs_gmp_powmod_sec": 2.02
+ },
+ "4096": {
+  "moduli_per_base": 88,
+  "messages": 32,
+  "mismatches_step4": 0,
+  "mismatches_step3": 0,
+  "ms_per_modexp": {
+   "step4": 11.233,
+   "step3": 8.599,
+   "gmp": 21.737,
+   "gmp_sec": 29.15
+  },
+  "step4_vs_step3": 0.77,
+  "step4_vs_gmp_powmod": 1.94,
+  "step4_vs_gmp_powmod_sec": 2.6
+ },
+ "8192": {
+  "moduli_per_base": 176,
+  "messages": 16,
+  "mismatches_step4": 0,
+  "mismatches_step3": 0,
+  "ms_per_modexp": {
+   "step4": 78.173,
+   "step3": 57.433,
+   "gmp": 111.365,
+   "gmp_sec": 243.063
+  },
+  "step4_vs_step3": 0.73,
+  "step4_vs_gmp_powmod": 1.42,
+  "step4_vs_gmp_powmod_sec": 3.11
+ },
+ "16384": {
+  "moduli_per_base": 344,
+  "messages": 8,
+  "mismatches_step4": 0,
+  "mismatches_step3": null,
+  "ms_per_modexp": {
+   "step4": 888.036,
+   "gmp": 707.176,
+   "gmp_sec": 2052.673
+  },
+  "step4_vs_step3": null,
+  "step4_vs_gmp_powmod": 0.8,
+  "step4_vs_gmp_powmod_sec": 2.31
+ },
+ "verdict": "PASS (exact)"
+}

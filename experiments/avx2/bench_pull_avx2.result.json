@@ -1,0 +1,35 @@
+{
+ "date": "2026-10-12",
+ "build": "gcc -O3 -mavx2 -mno-avx512f",
+ "zmm_in_asm": false,
+ "4096x4096": {
+  "pull_mismatches": 0,
+  "omnid_sign_mismatches": 0,
+  "us": {
+   "pull_avx2": 2049.3,
+   "omnid_sign_epi8": 2110.8,
+   "numpy_float32": 4194.6
+  },
+  "weight_bytes": {
+   "pull_codes": 8388608,
+   "omnid_int8": 16777216
+  },
+  "pull_vs_omnid": 1.03,
+  "pull_vs_float32": 2.05
+ },
+ "8192x8192": {
+  "pull_mismatches": 0,
+  "omnid_sign_mismatches": 0,
+  "us": {
+   "pull_avx2": 9152.8,
+   "omnid_sign_epi8": 9320.2,
+   "numpy_float32": 23195.9
+  },
+  "weight_bytes": {
+   "pull_codes": 33554432,
+   "omnid_int8": 67108864
+  },
+  "pull_vs_omnid": 1.02,
+  "pull_vs_float32": 2.53
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "date": "2026-10-12",
+ "device": "pthread-Intel(R) Xeon(R) Processor @ 2.10GHz",
+ "note": "PoCL CPU device: correctness of the GPU form only",
+ "1024x1020": {
+  "GPU1_forward_mismatches": 0,
+  "forward_check_ring_agrees": true,
+  "GPU2_backward_mismatches": 0,
+  "backward_check_ring_agrees": true,
+  "pocl_cpu_ms": [
+   239.2,
+   1.8
+  ]
+ },
+ "4096x4080": {
+  "GPU1_forward_mismatches": 0,
+  "forward_check_ring_agrees": true,
+  "GPU2_backward_mismatches": 0,
+  "backward_check_ring_agrees": true,
+  "pocl_cpu_ms": [
+   10.5,
+   12.9
+  ]
+ }
+}
