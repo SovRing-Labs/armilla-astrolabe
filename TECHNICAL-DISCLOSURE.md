@@ -400,6 +400,12 @@ ternary weights and the cyclone's wiring and synchronisation. Built and measured
 - Fast Chinese remaindering by subproduct trees: Borodin & Moenck (1974).
 - Fixed-base comb / precomputed exponent tables: Brickell, Gordon, McCurley & Wilson (1992); Lim & Lee (1994); Napier's rods (1617).
 - Pseudo-Mersenne moduli (2ᵏ − c) for fast reduction: field-known (Crandall, 1992); AVX-512 IFMA (Intel, 52-bit integer FMA).
+- **Residue-ring arithmetic in homomorphic encryption (added in 0.1.1):** full-RNS BFV (Bajard, Eynard, Hasan & Zucca, 2016);
+  full-RNS CKKS (Cheon, Han, Kim, Kim & Song, 2018); the OpenFHE library (Al Badawi et al., 2022) and its Julia bindings
+  OpenFHE-julia (Schlottke-Lakemper et al., 2024, v0.6.4); **AVX-512 IFMA for modular arithmetic: Intel HEXL (Boemer et al.,
+  2021).** These established base conversion between ring sets and IFMA-accelerated modular arithmetic before this work; §7's
+  use of IFMA for RNS modular multiplication is an application of that field knowledge, not a first. No code from these
+  projects was read (their READMEs only).
 - RNS Montgomery: Posch & Posch (1995); Bajard, Didier & Kornerup (1998); Kawamura et al. (2000).
 - Redundant-modulus base extension: Shenoy & Kumaresan (1989).
 - Redundant RNS error detection and correction: Watson & Hastings (1966); Barsi & Maestrini (1973).
@@ -420,5 +426,9 @@ ternary weights and the cyclone's wiring and synchronisation. Built and measured
   rings per code load, read out by fractional CRT, guarded by a check ring on its own core.
 - The five-register centre operations.
 - The negative results above.
+
+What remains ours in §7 (relative to the work above): batched constant-time fixed windows on 2⁴⁸ − c rings with a one-pass
+lazy fold, the fixed-base comb on RNS-IFMA, the measurements against GMP, the six-system / diamond layouts with mirror bases, and
+guard mode at the level of whole ring systems.
 
 All code was written from the method descriptions; no other implementation was read.

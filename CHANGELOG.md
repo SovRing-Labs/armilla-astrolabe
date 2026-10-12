@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1 (2026-10-12)
+
+- Provenance: credit prior art in homomorphic encryption for residue-ring base conversion and AVX-512 IFMA modular
+  arithmetic (full-RNS BFV 2016, full-RNS CKKS 2018, OpenFHE 2022, OpenFHE-julia 2024, Intel HEXL 2021), and state what in
+  §7 remains new relative to it. No code or results changed.
+
 ## 0.1.0 (2026-10-12)
 
 First release.
