@@ -6,7 +6,7 @@ no floating point anywhere, bit-exact and independent of summation order.
 | Step | File | What it proves | Result |
 |---|---|---|---|
 | 1 | `ring_nl.py` → `ring_nl.result.json` | same algorithm over exact Python ints (oracle) and over residues | 0 mismatches; shuffled order identical; softmax rel err 8.3e-12, LSE 1.1e-11 |
-| 2 | `jit_nl.py` → `jit_nl.result.json` | C rendered at run time with constants baked (JIT centre), vs the oracle | 0 mismatches on 4 shapes; ~10 µs/element on CPU |
+| 2 | `jit_nl.py` → `jit_nl.result.json` | C rendered at run time with constants baked (JIT centre), vs the oracle | 0 mismatches on 4 shapes; 15.4 µs/element on an Intel i5-8365U laptop, 1,399× slower than f64 (J2; the time depends on the CPU) |
 | 3 | `law_gate.py` → `law_gate.result.json` | math-core law `mathkb.softmax.normalised_shift_invariant` | 500/500; broken constant fails 465/500 |
 | 4 | `gpu_nl.py`, `ring_nl.cu` → `gpu_nl.result.json` | ring GEMM (ternary W, int8 A) + softmax/LSE/loss on CUDA vs the CPU kernel | RTX A4500: 0 mismatches ×3 runs ×2 shapes; school step 128×4096 = 29.4 ms |
 

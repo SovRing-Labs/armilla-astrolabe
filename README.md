@@ -1,5 +1,11 @@
 # Armilla Astrolabe — a digital abacus
 
+<!-- status-badges (REPO-ACCESS-C) -->
+[![status: pre-alpha (under development)](https://img.shields.io/badge/status-pre--alpha%20%28under%20development%29-orange)](STATUS.md) **Status: pre-alpha, under development** — what works today, what is untested and what failed: [`STATUS.md`](STATUS.md)
+
+[![defensive publication: DOI pending](https://img.shields.io/badge/defensive%20publication-DOI%20pending-blue)](TECHNICAL-DISCLOSURE.md) **Defensive publication:** [`TECHNICAL-DISCLOSURE.md`](TECHNICAL-DISCLOSURE.md) · DOI pending
+<!-- /status-badges -->
+
 A number is held as its remainders on many small prime rings, like beads on rods that never pass a carry. On top of that sit
 three old ideas, rebuilt for today's processors:
 

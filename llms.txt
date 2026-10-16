@@ -1,0 +1,20 @@
+# armilla-astrolabe
+
+> Carry-free residue-number-system engine on ordinary CPUs: exact integer arithmetic on coprime prime rings, with a ternary pull engine, an exact training step and RNS modular exponentiation.
+
+Setup: `git clone --depth 1 https://github.com/SovRing-Labs/armilla-astrolabe && cd armilla-astrolabe && python3 -m venv .venv && . .venv/bin/activate && python -m pip install -q numpy pytest && PYTHONPATH=engine python3 -m pytest -q engine/tests` (expect: 9 passed).
+Status: pre-alpha, under development — read STATUS.md before relying on a number.
+Licence: PolyForm Small Business 1.0.0 OR PolyForm Noncommercial 1.0.0 (free trial for evaluation).
+
+## Docs
+- [README.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-astrolabe/main/README.md)
+- [TECHNICAL-DISCLOSURE.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-astrolabe/main/TECHNICAL-DISCLOSURE.md)
+- [PROVENANCE.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-astrolabe/main/PROVENANCE.md)
+- [LICENSING.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-astrolabe/main/LICENSING.md)
+- [CITATION.cff](https://raw.githubusercontent.com/SovRing-Labs/armilla-astrolabe/main/CITATION.cff)
+- [AGENTS.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-astrolabe/main/AGENTS.md)
+- [STATUS.md](https://raw.githubusercontent.com/SovRing-Labs/armilla-astrolabe/main/STATUS.md)
+- [suite.json](https://raw.githubusercontent.com/SovRing-Labs/armilla-astrolabe/main/suite.json)
+
+## Optional
+- [SovRing umbrella (all repos, MCP setup)](https://github.com/SovRing-Labs/SovRing)
