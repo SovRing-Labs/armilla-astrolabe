@@ -1,0 +1,74 @@
+{
+ "date": "2026-10-13",
+ "rings": [
+  199,
+  197,
+  193,
+  191,
+  181,
+  179,
+  173,
+  167,
+  163,
+  157,
+  151,
+  149,
+  139,
+  137,
+  131,
+  233,
+  229,
+  227,
+  223,
+  211
+ ],
+ "scale_group": [
+  233,
+  229,
+  227,
+  223,
+  211
+ ],
+ "S_bits": 40,
+ "range_bits": 150,
+ "exp_terms": 14,
+ "newton_iters": 5,
+ "atanh_terms": 14,
+ "runs": [
+  {
+   "rows": 64,
+   "n": 512,
+   "spread": 8.0,
+   "T1_ring_vs_int_mismatches": 0,
+   "T2_shuffled_identical": true,
+   "T3_softmax_max_rel_err": 7.865362369440232e-12,
+   "T3_lse_max_abs_err": 1.1294076784906792e-11,
+   "secs_int": 0.2,
+   "secs_ring_numpy": 2.9
+  },
+  {
+   "rows": 64,
+   "n": 512,
+   "spread": 30.0,
+   "T1_ring_vs_int_mismatches": 0,
+   "T2_shuffled_identical": true,
+   "T3_softmax_max_rel_err": 8.275047401078526e-12,
+   "T3_lse_max_abs_err": 1.0302869668521453e-11,
+   "secs_int": 0.14,
+   "secs_ring_numpy": 2.36
+  },
+  {
+   "rows": 200,
+   "n": 40,
+   "spread": 25.0,
+   "T1_ring_vs_int_mismatches": 0,
+   "T2_shuffled_identical": true,
+   "T3_softmax_max_rel_err": 7.55399204503667e-12,
+   "T3_lse_max_abs_err": 1.1091572105215164e-11,
+   "secs_int": 0.04,
+   "secs_ring_numpy": 0.67
+  }
+ ],
+ "T1_teeth_broken_ring": "caught by the read-out range guard: value too large for a 2-digit read-out",
+ "verdict": "PASS"
+}

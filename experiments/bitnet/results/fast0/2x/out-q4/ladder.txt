@@ -1,0 +1,12 @@
+cpu: AMD EPYC 4564P 16-Core Processor; threads=8; armilla_fast.c sha256 ef3220d62bc76c06; levels: 3 4
+level 3 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014
+level 4 logits_sha256=c782fadc5375c881c057b6935774908e1e7f577b9bb37d03512fdf99dfdf5657 tokens_sha256=b5b2aa78c48e3014
+ref rep1 load=0.47 decode 64 tokens in 2.219s = 28.836 tok/s (8 threads)
+armilla L3 rep1 load=1.07 decode 64 tokens in 2.751s = 23.264 tok/s time split (all tokens incl prefill): precompute 0.00s pull 1.62s crt 0.00s logits 0.93s forward-total 0.00s 
+armilla L4 rep1 load=1.63 decode 64 tokens in 1.833s = 34.921 tok/s head survivors: mean 720.3 max 15463 of 128256 over 64 steps time split (all tokens incl prefill): precompute 0.00s pull 1.14s crt 0.00s logits 0.47s forward-total 0.00s 
+ref rep2 load=1.63 decode 64 tokens in 2.151s = 29.755 tok/s (8 threads)
+armilla L3 rep2 load=2.14 decode 64 tokens in 5.053s = 12.666 tok/s time split (all tokens incl prefill): precompute 0.00s pull 3.90s crt 0.00s logits 0.94s forward-total 0.00s 
+armilla L4 rep2 load=2.61 decode 64 tokens in 1.897s = 33.735 tok/s head survivors: mean 720.3 max 15463 of 128256 over 64 steps time split (all tokens incl prefill): precompute 0.00s pull 1.20s crt 0.00s logits 0.48s forward-total 0.00s 
+ref rep3 load=3.12 decode 64 tokens in 2.150s = 29.767 tok/s (8 threads)
+armilla L3 rep3 load=3.12 decode 64 tokens in 2.566s = 24.939 tok/s time split (all tokens incl prefill): precompute 0.00s pull 1.43s crt 0.00s logits 0.92s forward-total 0.00s 
+armilla L4 rep3 load=3.67 decode 64 tokens in 1.821s = 35.139 tok/s head survivors: mean 720.3 max 15463 of 128256 over 64 steps time split (all tokens incl prefill): precompute 0.00s pull 1.15s crt 0.00s logits 0.47s forward-total 0.00s 

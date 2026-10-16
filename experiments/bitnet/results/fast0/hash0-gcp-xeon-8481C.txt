@@ -1,0 +1,4 @@
+cpu: Intel(R) Xeon(R) Platinum 8481C CPU @ 2.70GHz; bin sha256 efb1bbb5bf3c8c82
+threads=1 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014 decode 16 tokens in 4.554s = 3.513 tok/s 
+threads=4 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014 decode 16 tokens in 1.537s = 10.408 tok/s 
+threads=8 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014 decode 16 tokens in 1.297s = 12.338 tok/s 

@@ -1,0 +1,11 @@
+cpu: AMD EPYC 4564P 16-Core Processor; threads=8; load=34.91 22.00 18.98; ids sha256 dc2ddc2a5ec4630a49923e0d29762c9706d0cf0ed4e088989a32985972cb2be2; armilla_bitnet.c sha256 15772039dc919ccdf88ea1571b66b4a0e6a47b0537e28f116046c5e2bd77592d
+== armilla-silu-f16kv load=34.91
+PPL 81.3575 over 1530 tokens in 6 chunks (act=silu, f16kv=1)
+== armilla-relu2-exactkv load=28.20
+PPL 14.4546 over 1530 tokens in 6 chunks (act=relu2, f16kv=0)
+== armilla-relu2-f16kv load=17.52
+PPL 14.4522 over 1530 tokens in 6 chunks (act=relu2, f16kv=1)
+== armilla-silu-exactkv load=8.08
+PPL 81.4056 over 1530 tokens in 6 chunks (act=silu, f16kv=0)
+== bitnet.cpp libllama load=32.46
+PPL 81.4212 over 1530 tokens in 6 chunks (bitnet.cpp libllama)

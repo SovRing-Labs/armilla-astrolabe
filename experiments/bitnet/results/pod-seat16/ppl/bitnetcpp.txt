@@ -1,0 +1,1 @@
+PPL 81.4212 over 1530 tokens in 6 chunks (bitnet.cpp libllama)

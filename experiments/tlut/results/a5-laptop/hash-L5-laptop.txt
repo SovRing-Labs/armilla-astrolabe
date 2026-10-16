@@ -1,0 +1,2 @@
+L5 T5=0 logits16 sha256=c782fadc5375c881c057b6935774908e1e7f577b9bb37d03512fdf99dfdf5657 tokens=b5b2aa78c48e3014 decode 16 tokens in 1.303s = 12.276 tok/s 
+L5 T5=1 logits16 sha256=c782fadc5375c881c057b6935774908e1e7f577b9bb37d03512fdf99dfdf5657 tokens=b5b2aa78c48e3014 decode 16 tokens in 23.223s = 0.689 tok/s 

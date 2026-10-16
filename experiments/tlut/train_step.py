@@ -14,10 +14,12 @@ T1 exactness: forward, backward and dW equal int64 references.                  
 T2 bit-identity: two different splits of the batch over the 8 harnesses, reduced in opposite orders, give the SAME L and W
    bit for bit. The float32 version of the same step (float activations, float32 partial dW per harness, float sum in harness
    order) is run on the same two splits: number of latent entries that differ is reported.              PASS = identical
+   T2.L_sha256 / T2.W_sha256 = sha256 of the final exact L (int64 LE) and W (int8): equal hashes on two machines = the same trained
+   weights across CPUs and vendors (GCP-CPU-0 A7).
 T3 speed: exact step vs float32 step (NumPy BLAS sgemm for forward, backward and dW), one core, median of 5. Reported.
-Writes train_step.result.json
+usage: train_step.py [OUT.json] [n ...]   (default: train_step.result.json beside this file, n = 960 1920)
 """
-import ctypes, json, os, subprocess, tempfile, time
+import ctypes, hashlib, json, os, subprocess, sys, tempfile, time
 import numpy as np
 os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")
 HERE = os.path.dirname(os.path.abspath(__file__)); tmp = tempfile.mkdtemp()
@@ -86,8 +88,11 @@ def float_step(Lf, Xf, Tf, split, order):
     return Lf - dW * np.float32(127.0 / 2 ** SHIFT), DX
 
 rng = np.random.default_rng(31415)
-res = {"date": "2026-10-12", "tokens": N, "harnesses": H, "cpu": "one core, AVX-512 VBMI"}
-for n in (960, 1920):
+OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "train_step.result.json")
+DIMS = [int(a) for a in sys.argv[2:]] or [960, 1920]
+CPU = next((l.split(":", 1)[1].strip() for l in open("/proc/cpuinfo") if l.startswith("model name")), "")
+res = {"date": time.strftime("%Y-%m-%d"), "tokens": N, "harnesses": H, "cpu": f"one core, {CPU}"}
+for n in DIMS:
     L = rng.integers(-200, 201, (n, n)).astype(np.int64)
     X = rng.integers(-127, 128, (N, n), dtype=np.int8); Tg = rng.integers(-2000, 2001, (N, n)).astype(np.int64)
     splitA = [np.arange(h * N // H, (h + 1) * N // H) for h in range(H)]
@@ -102,7 +107,9 @@ for n in (960, 1920):
     fA, _ = float_step(Lf, Xf, Tf, splitA, list(range(H))); fB, _ = float_step(Lf, Xf, Tf, splitB, list(reversed(range(H))))
     t2 = {"exact_L_bit_identical": bool(np.array_equal(LA, LB)),
           "exact_W_bit_identical": bool(np.array_equal(np.sign(LA) * (np.abs(LA) > TAU), np.sign(LB) * (np.abs(LB) > TAU))),
-          "float32_latent_entries_differing": int(np.sum(fA != fB)), "of": n * n}
+          "float32_latent_entries_differing": int(np.sum(fA != fB)), "of": n * n,
+          "L_sha256": hashlib.sha256(np.ascontiguousarray(LA, dtype="<i8").tobytes()).hexdigest(),
+          "W_sha256": hashlib.sha256(np.ascontiguousarray(np.sign(LA) * (np.abs(LA) > TAU), dtype=np.int8).tobytes()).hexdigest()}
     te, tf = [], []
     for _ in range(5):
         s = time.perf_counter(); exact_step(L, X, Tg, splitA, list(range(H))); te.append(time.perf_counter() - s)
@@ -113,4 +120,4 @@ for n in (960, 1920):
 ok = all(v["T1"]["forward_mismatches"] == 0 and v["T1"]["backward_mismatches"] == 0 and v["T1"]["dW_mismatches"] == 0
          and v["T2"]["exact_L_bit_identical"] for k, v in res.items() if k.isdigit())
 res["verdict"] = "PASS" if ok else "FAIL"
-json.dump(res, open(os.path.join(HERE, "train_step.result.json"), "w"), indent=1); print(res["verdict"])
+json.dump(res, open(OUT, "w"), indent=1); print(res["verdict"])

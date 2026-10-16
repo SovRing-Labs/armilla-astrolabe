@@ -1,0 +1,38 @@
+{
+ "date": "2026-10-14",
+ "layout": "6 systems (k=3), 55 rings each, 2 redundant",
+ "data_range_bits": 3508,
+ "jobs": {
+  "train": {
+   "trials_per_fault_count": 200,
+   "f0_clean_exact": 200,
+   "f1_corrected_exact": 200,
+   "f1_named_right": 200,
+   "f2_detected": 200,
+   "silent_wrong": 0,
+   "no_guard_silent_wrong": 128,
+   "faults_injected": 600,
+   "verdict": "PASS"
+  },
+  "bignum": {
+   "trials_per_fault_count": 200,
+   "f0_clean_exact": 200,
+   "f1_corrected_exact": 200,
+   "f1_named_right": 200,
+   "f2_detected": 200,
+   "silent_wrong": 0,
+   "no_guard_silent_wrong": 138,
+   "faults_injected": 600,
+   "verdict": "PASS"
+  }
+ },
+ "events_emitted": 800,
+ "events_in_file": 800,
+ "events_expected": 800,
+ "events_by_verdict": {
+  "0": 400,
+  "-1": 400
+ },
+ "seconds": 13.31,
+ "verdict": "PASS"
+}

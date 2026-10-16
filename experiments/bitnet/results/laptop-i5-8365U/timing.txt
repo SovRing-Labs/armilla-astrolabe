@@ -1,0 +1,7 @@
+ref   rep1 decode 64 tokens in 13.221s = 4.841 tok/s (4 threads)
+arm   rep1 decode 64 tokens in 33.262s = 1.924 tok/s (4 threads, prefill 16 tokens excluded)
+ref   rep2 decode 64 tokens in 13.375s = 4.785 tok/s (4 threads)
+arm   rep2 decode 64 tokens in 27.797s = 2.302 tok/s (4 threads, prefill 16 tokens excluded)
+ref   rep3 decode 64 tokens in 14.014s = 4.567 tok/s (4 threads)
+arm   rep3 decode 64 tokens in 30.789s = 2.079 tok/s (4 threads, prefill 16 tokens excluded)
+loadavg_after 13.71 13.54 12.28 8/1938 1352241

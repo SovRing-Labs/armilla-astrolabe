@@ -1,0 +1,7 @@
+tokens L4(cert head) sha256=a6be82acd0a6a9a8 base L2 sha256=a6be82acd0a6a9a8
+headcheck ok through step 1
+headcheck ok through step 16
+headcheck ok through step 32
+headcheck ok through step 48
+headcheck ok through step 64
+head survivors: mean 720.3 max 15463 of 128256 over 64 steps

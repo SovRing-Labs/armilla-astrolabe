@@ -1,0 +1,21 @@
+{
+ "date": "2026-10-13",
+ "compile_s": 2.01,
+ "c_lines": 90,
+ "gcc": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+ "J1": {
+  "rows64_n512_spread8.0": 0,
+  "rows64_n512_spread30.0": 0,
+  "rows200_n40_spread25.0": 0,
+  "rows16_n4096_spread4.0": 0
+ },
+ "J2": {
+  "rows": 256,
+  "n": 512,
+  "ring_us_per_row": 7903.3,
+  "ring_ns_per_element": 15436.2,
+  "f64_us_per_row": 5.65,
+  "ring_over_f64": 1398.6
+ },
+ "verdict": "PASS"
+}

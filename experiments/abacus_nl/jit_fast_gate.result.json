@@ -1,0 +1,10 @@
+{
+ "gate": "ABACUS-NL-2 step 1: fast primitives == integer twin (J1)",
+ "J1": {
+  "rows64_n512_spread8.0": 0,
+  "rows64_n512_spread30.0": 0,
+  "rows200_n40_spread25.0": 0,
+  "rows16_n4096_spread4.0": 0
+ },
+ "verdict": "PASS"
+}

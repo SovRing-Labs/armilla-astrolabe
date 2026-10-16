@@ -1,0 +1,16 @@
+0.00.402.563 W load: missing pre-tokenizer type, using: 'default'
+0.00.402.568 W load:                                             
+0.00.402.569 W load: ************************************        
+0.00.402.569 W load: GENERATION QUALITY WILL BE DEGRADED!        
+0.00.402.569 W load: CONSIDER REGENERATING THE MODEL             
+0.00.402.569 W load: ************************************        
+0.00.402.569 W load:                                             
+0.01.766.798 I 
+0.01.766.886 I system_info: n_threads = 8 (n_threads_batch = 8) / 32 | CPU : SSE3 = 1 | SSSE3 = 1 | AVX = 1 | AVX2 = 1 | F16C = 1 | FMA = 1 | BMI2 = 1 | LLAMAFILE = 1 | OPENMP = 1 | REPACK = 1 | 
+0.01.766.900 I perplexity: tokenizing the input ..
+0.01.773.972 I perplexity: tokenization took 7.068 ms
+0.01.774.012 I perplexity: calculating perplexity over 8 chunks, n_ctx=512, batch_size=2048, n_seq=4
+0.08.819.509 I perplexity: 7.05 seconds per pass - ETA 0.23 minutes
+[1]56.7462,[2]65.6572,[3]65.4661,[4]69.8162,[5]74.7960,[6]79.0550,[7]78.7556,[8]80.1066,
+0.15.672.135 I Final estimate: PPL = 80.1066 +/- 5.36532
+

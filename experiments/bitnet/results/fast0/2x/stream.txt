@@ -1,0 +1,3 @@
+load=0.48 threads=1 triad 32.3 GB/s  read-only 42.0 GB/s (sink 6.71089e+08) load=-
+load=0.52 threads=4 triad 33.6 GB/s  read-only 45.0 GB/s (sink 6.71089e+08) load=-
+load=0.52 threads=8 triad 32.6 GB/s  read-only 43.6 GB/s (sink 6.71089e+08) load=-

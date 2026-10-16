@@ -1,0 +1,2 @@
+L5 logits off=c782fadc5375c881 on=c782fadc5375c881 load=1.60
+decode 64 tokens in 1.585s = 40.382 tok/s (8 threads, prefill 16 tokens excluded)

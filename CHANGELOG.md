@@ -1,5 +1,26 @@
 # Changelog
 
+## 0.1.3 (2026-10-16) — under development, pre-alpha
+
+- BitNet b1.58 2B4T whole-model decode on the Armilla pull (`experiments/bitnet/`): logits hash identical on i5-8365U, EPYC 4564P
+  and Xeon Platinum 8481C at 1/4/8 threads; fast ladder L1–L6 (1.15× bitnet.cpp on SPR, 1.37× on EPYC 4564P); exactness log
+  3,570 checks, 0 mismatches; SiLU vs ReLU² perplexity rows.
+- `reproduce.sh` (`--rerun` re-runs every bench whose CPU needs the host meets).
+- ABACUS-NL (`experiments/abacus_nl/`): ring softmax / exp / ln / LSE / loss in Armilla rings, JIT-rendered C kernel and a CUDA
+  twin, bit-identical CPU ↔ GPU; fast ring primitives and a 12-ring front end.
+- Guard mode as a security sensor (`engine/guard_mode.py`) and a Paillier merge on the RNS backend (`experiments/paillier/`) —
+  no security claim; not audited.
+- 5-trit vpermi2b pull on all 7 projections of the whole-model decoder (`armilla_fast5.c`); cross-vendor weight identity rows in
+  `experiments/tlut/train_step.py` (T2.L_sha256 / T2.W_sha256).
+- Release hygiene: pod host, port and home-directory paths removed from scripts and logs (`run_pod.sh` reads `POD`, `POD_PORT`,
+  `POD_KEY`); merged from the sonnet-p1, sonnet-p3 and opus work branches.
+
+## 0.1.2 (2026-10-13)
+
+- Provenance: credit Residue Hyperdimensional Computing (Kymn et al., Neural Computation 2025, arXiv 2311.04872) and Integer
+  Echo State Networks (Kleyko, Frady, Kheffache & Osipov, arXiv 1706.00280) as closest field kin. Add `reproduce.sh`. No code
+  or results changed.
+
 ## 0.1.1 (2026-10-12)
 
 - Provenance: credit prior art in homomorphic encryption for residue-ring base conversion and AVX-512 IFMA modular

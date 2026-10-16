@@ -1,0 +1,800 @@
+{"t": 1791969747.3291533, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 0, "system": 3, "role": "data"}
+{"t": 1791969747.3458035, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 0, "system": null}
+{"t": 1791969747.35914, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 1, "system": 2, "role": "data"}
+{"t": 1791969747.3742168, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 1, "system": null}
+{"t": 1791969747.382733, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 2, "system": 0, "role": "data"}
+{"t": 1791969747.3977427, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 2, "system": null}
+{"t": 1791969747.4161549, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 3, "system": 5, "role": "redundant"}
+{"t": 1791969747.430233, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 3, "system": null}
+{"t": 1791969747.4468055, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 4, "system": 3, "role": "data"}
+{"t": 1791969747.4642284, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 4, "system": null}
+{"t": 1791969747.4752774, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 5, "system": 3, "role": "data"}
+{"t": 1791969747.4899166, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 5, "system": null}
+{"t": 1791969747.5058994, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 6, "system": 4, "role": "redundant"}
+{"t": 1791969747.5209742, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 6, "system": null}
+{"t": 1791969747.5452833, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 7, "system": 3, "role": "data"}
+{"t": 1791969747.5774398, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 7, "system": null}
+{"t": 1791969747.6014569, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 8, "system": 3, "role": "data"}
+{"t": 1791969747.6177855, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 8, "system": null}
+{"t": 1791969747.6291556, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 9, "system": 2, "role": "data"}
+{"t": 1791969747.6456454, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 9, "system": null}
+{"t": 1791969747.6551967, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 10, "system": 0, "role": "data"}
+{"t": 1791969747.670812, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 10, "system": null}
+{"t": 1791969747.6848164, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 11, "system": 3, "role": "data"}
+{"t": 1791969747.7021716, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 11, "system": null}
+{"t": 1791969747.7160404, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 12, "system": 2, "role": "data"}
+{"t": 1791969747.734101, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 12, "system": null}
+{"t": 1791969747.74982, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 13, "system": 3, "role": "data"}
+{"t": 1791969747.7650373, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 13, "system": null}
+{"t": 1791969747.7777405, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 14, "system": 2, "role": "data"}
+{"t": 1791969747.7940798, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 14, "system": null}
+{"t": 1791969747.8064003, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 15, "system": 2, "role": "data"}
+{"t": 1791969747.8339388, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 15, "system": null}
+{"t": 1791969747.8570855, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 16, "system": 1, "role": "data"}
+{"t": 1791969747.885494, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 16, "system": null}
+{"t": 1791969747.9015613, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 17, "system": 0, "role": "data"}
+{"t": 1791969747.918737, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 17, "system": null}
+{"t": 1791969747.937367, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 18, "system": 4, "role": "redundant"}
+{"t": 1791969747.953177, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 18, "system": null}
+{"t": 1791969747.9703212, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 19, "system": 4, "role": "redundant"}
+{"t": 1791969747.9861116, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 19, "system": null}
+{"t": 1791969747.9958417, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 20, "system": 0, "role": "data"}
+{"t": 1791969748.0145955, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 20, "system": null}
+{"t": 1791969748.02456, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 21, "system": 0, "role": "data"}
+{"t": 1791969748.0425274, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 21, "system": null}
+{"t": 1791969748.054139, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 22, "system": 1, "role": "data"}
+{"t": 1791969748.0708916, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 22, "system": null}
+{"t": 1791969748.0905602, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 23, "system": 4, "role": "redundant"}
+{"t": 1791969748.104891, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 23, "system": null}
+{"t": 1791969748.1167533, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 24, "system": 3, "role": "data"}
+{"t": 1791969748.1348784, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 24, "system": null}
+{"t": 1791969748.1559703, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 25, "system": 5, "role": "redundant"}
+{"t": 1791969748.1724093, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 25, "system": null}
+{"t": 1791969748.1893904, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 26, "system": 3, "role": "data"}
+{"t": 1791969748.2075992, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 26, "system": null}
+{"t": 1791969748.2263033, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 27, "system": 4, "role": "redundant"}
+{"t": 1791969748.2420437, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 27, "system": null}
+{"t": 1791969748.2514384, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 28, "system": 0, "role": "data"}
+{"t": 1791969748.2685912, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 28, "system": null}
+{"t": 1791969748.2802703, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 29, "system": 1, "role": "data"}
+{"t": 1791969748.2982905, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 29, "system": null}
+{"t": 1791969748.3099272, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 30, "system": 1, "role": "data"}
+{"t": 1791969748.3281198, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 30, "system": null}
+{"t": 1791969748.3493803, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 31, "system": 5, "role": "redundant"}
+{"t": 1791969748.3658319, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 31, "system": null}
+{"t": 1791969748.384548, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 32, "system": 4, "role": "redundant"}
+{"t": 1791969748.4003499, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 32, "system": null}
+{"t": 1791969748.4144697, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 33, "system": 2, "role": "data"}
+{"t": 1791969748.4325705, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 33, "system": null}
+{"t": 1791969748.4424942, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 34, "system": 0, "role": "data"}
+{"t": 1791969748.4605823, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 34, "system": null}
+{"t": 1791969748.4790955, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 35, "system": 4, "role": "redundant"}
+{"t": 1791969748.4952729, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 35, "system": null}
+{"t": 1791969748.510008, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 36, "system": 3, "role": "data"}
+{"t": 1791969748.5257213, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 36, "system": null}
+{"t": 1791969748.537274, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 37, "system": 1, "role": "data"}
+{"t": 1791969748.5566154, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 37, "system": null}
+{"t": 1791969748.567432, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 38, "system": 0, "role": "data"}
+{"t": 1791969748.5848517, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 38, "system": null}
+{"t": 1791969748.6060758, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 39, "system": 5, "role": "redundant"}
+{"t": 1791969748.6235006, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 39, "system": null}
+{"t": 1791969748.6341672, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 40, "system": 0, "role": "data"}
+{"t": 1791969748.6522899, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 40, "system": null}
+{"t": 1791969748.6733596, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 41, "system": 5, "role": "redundant"}
+{"t": 1791969748.6893396, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 41, "system": null}
+{"t": 1791969748.7040985, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 42, "system": 1, "role": "data"}
+{"t": 1791969748.7232893, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 42, "system": null}
+{"t": 1791969748.746844, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 43, "system": 5, "role": "redundant"}
+{"t": 1791969748.7619545, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 43, "system": null}
+{"t": 1791969748.783508, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 44, "system": 5, "role": "redundant"}
+{"t": 1791969748.7992735, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 44, "system": null}
+{"t": 1791969748.8156037, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 45, "system": 4, "role": "redundant"}
+{"t": 1791969748.8315508, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 45, "system": null}
+{"t": 1791969748.8583925, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 46, "system": 5, "role": "redundant"}
+{"t": 1791969748.8758342, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 46, "system": null}
+{"t": 1791969748.8878167, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 47, "system": 1, "role": "data"}
+{"t": 1791969748.9114418, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 47, "system": null}
+{"t": 1791969748.9270525, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 48, "system": 4, "role": "redundant"}
+{"t": 1791969748.946192, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 48, "system": null}
+{"t": 1791969748.961763, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 49, "system": 3, "role": "data"}
+{"t": 1791969748.9811325, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 49, "system": null}
+{"t": 1791969748.9910462, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 50, "system": 0, "role": "data"}
+{"t": 1791969749.0175855, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 50, "system": null}
+{"t": 1791969749.027072, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 51, "system": 0, "role": "data"}
+{"t": 1791969749.044666, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 51, "system": null}
+{"t": 1791969749.065887, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 52, "system": 5, "role": "redundant"}
+{"t": 1791969749.0829465, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 52, "system": null}
+{"t": 1791969749.0956354, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 53, "system": 1, "role": "data"}
+{"t": 1791969749.1145916, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 53, "system": null}
+{"t": 1791969749.1326323, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 54, "system": 3, "role": "data"}
+{"t": 1791969749.152434, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 54, "system": null}
+{"t": 1791969749.1633546, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 55, "system": 0, "role": "data"}
+{"t": 1791969749.1830938, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 55, "system": null}
+{"t": 1791969749.2041662, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 56, "system": 4, "role": "redundant"}
+{"t": 1791969749.22268, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 56, "system": null}
+{"t": 1791969749.233299, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 57, "system": 0, "role": "data"}
+{"t": 1791969749.2605412, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 57, "system": null}
+{"t": 1791969749.2777112, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 58, "system": 3, "role": "data"}
+{"t": 1791969749.2937376, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 58, "system": null}
+{"t": 1791969749.309884, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 59, "system": 5, "role": "redundant"}
+{"t": 1791969749.3211775, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 59, "system": null}
+{"t": 1791969749.3388803, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 60, "system": 4, "role": "redundant"}
+{"t": 1791969749.3521352, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 60, "system": null}
+{"t": 1791969749.361349, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 61, "system": 1, "role": "data"}
+{"t": 1791969749.376933, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 61, "system": null}
+{"t": 1791969749.3881102, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 62, "system": 1, "role": "data"}
+{"t": 1791969749.402857, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 62, "system": null}
+{"t": 1791969749.4098089, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 63, "system": 0, "role": "data"}
+{"t": 1791969749.4267998, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 63, "system": null}
+{"t": 1791969749.4439905, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 64, "system": 4, "role": "redundant"}
+{"t": 1791969749.45654, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 64, "system": null}
+{"t": 1791969749.4679897, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 65, "system": 2, "role": "data"}
+{"t": 1791969749.4823365, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 65, "system": null}
+{"t": 1791969749.497674, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 66, "system": 3, "role": "data"}
+{"t": 1791969749.526681, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 66, "system": null}
+{"t": 1791969749.5560613, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 67, "system": 5, "role": "redundant"}
+{"t": 1791969749.571428, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 67, "system": null}
+{"t": 1791969749.579727, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 68, "system": 0, "role": "data"}
+{"t": 1791969749.5948977, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 68, "system": null}
+{"t": 1791969749.6098485, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 69, "system": 4, "role": "redundant"}
+{"t": 1791969749.6254423, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 69, "system": null}
+{"t": 1791969749.6419747, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 70, "system": 4, "role": "redundant"}
+{"t": 1791969749.6579206, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 70, "system": null}
+{"t": 1791969749.6679065, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 71, "system": 1, "role": "data"}
+{"t": 1791969749.6852584, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 71, "system": null}
+{"t": 1791969749.70516, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 72, "system": 5, "role": "redundant"}
+{"t": 1791969749.7196543, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 72, "system": null}
+{"t": 1791969749.7294924, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 73, "system": 1, "role": "data"}
+{"t": 1791969749.7458332, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 73, "system": null}
+{"t": 1791969749.7549627, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 74, "system": 0, "role": "data"}
+{"t": 1791969749.7907503, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 74, "system": null}
+{"t": 1791969749.8222375, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 75, "system": 3, "role": "data"}
+{"t": 1791969749.8543816, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 75, "system": null}
+{"t": 1791969749.884029, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 76, "system": 5, "role": "redundant"}
+{"t": 1791969749.8995535, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 76, "system": null}
+{"t": 1791969749.9119575, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 77, "system": 1, "role": "data"}
+{"t": 1791969749.9288654, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 77, "system": null}
+{"t": 1791969749.9477975, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 78, "system": 3, "role": "data"}
+{"t": 1791969749.9657047, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 78, "system": null}
+{"t": 1791969749.983259, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 79, "system": 3, "role": "data"}
+{"t": 1791969750.0015557, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 79, "system": null}
+{"t": 1791969750.021448, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 80, "system": 4, "role": "redundant"}
+{"t": 1791969750.0398958, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 80, "system": null}
+{"t": 1791969750.0528197, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 81, "system": 1, "role": "data"}
+{"t": 1791969750.0715039, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 81, "system": null}
+{"t": 1791969750.0907557, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 82, "system": 4, "role": "redundant"}
+{"t": 1791969750.106328, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 82, "system": null}
+{"t": 1791969750.1269948, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 83, "system": 5, "role": "redundant"}
+{"t": 1791969750.1429048, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 83, "system": null}
+{"t": 1791969750.161773, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 84, "system": 4, "role": "redundant"}
+{"t": 1791969750.1778557, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 84, "system": null}
+{"t": 1791969750.1922097, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 85, "system": 2, "role": "data"}
+{"t": 1791969750.210109, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 85, "system": null}
+{"t": 1791969750.220196, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 86, "system": 0, "role": "data"}
+{"t": 1791969750.2378483, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 86, "system": null}
+{"t": 1791969750.247128, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 87, "system": 0, "role": "data"}
+{"t": 1791969750.264136, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 87, "system": null}
+{"t": 1791969750.2766106, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 88, "system": 2, "role": "data"}
+{"t": 1791969750.2949355, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 88, "system": null}
+{"t": 1791969750.3100233, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 89, "system": 3, "role": "data"}
+{"t": 1791969750.3251553, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 89, "system": null}
+{"t": 1791969750.3421543, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 90, "system": 4, "role": "redundant"}
+{"t": 1791969750.3578174, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 90, "system": null}
+{"t": 1791969750.3720784, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 91, "system": 3, "role": "data"}
+{"t": 1791969750.3884273, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 91, "system": null}
+{"t": 1791969750.4002404, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 92, "system": 1, "role": "data"}
+{"t": 1791969750.4181364, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 92, "system": null}
+{"t": 1791969750.4362035, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 93, "system": 5, "role": "redundant"}
+{"t": 1791969750.4510603, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 93, "system": null}
+{"t": 1791969750.4723184, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 94, "system": 5, "role": "redundant"}
+{"t": 1791969750.4903724, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 94, "system": null}
+{"t": 1791969750.5010846, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 95, "system": 1, "role": "data"}
+{"t": 1791969750.518358, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 95, "system": null}
+{"t": 1791969750.5362263, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 96, "system": 4, "role": "redundant"}
+{"t": 1791969750.553118, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 96, "system": null}
+{"t": 1791969750.5716264, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 97, "system": 4, "role": "redundant"}
+{"t": 1791969750.5878303, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 97, "system": null}
+{"t": 1791969750.6056418, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 98, "system": 1, "role": "data"}
+{"t": 1791969750.6594367, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 98, "system": null}
+{"t": 1791969750.6729612, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 99, "system": 1, "role": "data"}
+{"t": 1791969750.6928113, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 99, "system": null}
+{"t": 1791969750.7086823, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 100, "system": 3, "role": "data"}
+{"t": 1791969750.7258408, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 100, "system": null}
+{"t": 1791969750.7332761, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 101, "system": 0, "role": "data"}
+{"t": 1791969750.748827, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 101, "system": null}
+{"t": 1791969750.7618911, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 102, "system": 2, "role": "data"}
+{"t": 1791969750.776977, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 102, "system": null}
+{"t": 1791969750.7939749, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 103, "system": 4, "role": "redundant"}
+{"t": 1791969750.8079011, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 103, "system": null}
+{"t": 1791969750.8242853, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 104, "system": 5, "role": "redundant"}
+{"t": 1791969750.8401353, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 104, "system": null}
+{"t": 1791969750.8542917, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 105, "system": 2, "role": "data"}
+{"t": 1791969750.8723006, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 105, "system": null}
+{"t": 1791969750.8931053, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 106, "system": 5, "role": "redundant"}
+{"t": 1791969750.9095204, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 106, "system": null}
+{"t": 1791969750.9263935, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 107, "system": 3, "role": "data"}
+{"t": 1791969750.944893, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 107, "system": null}
+{"t": 1791969750.981934, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 108, "system": 4, "role": "redundant"}
+{"t": 1791969751.0017273, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 108, "system": null}
+{"t": 1791969751.0297549, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 109, "system": 5, "role": "redundant"}
+{"t": 1791969751.0480263, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 109, "system": null}
+{"t": 1791969751.0673645, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 110, "system": 4, "role": "redundant"}
+{"t": 1791969751.0804534, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 110, "system": null}
+{"t": 1791969751.0923855, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 111, "system": 1, "role": "data"}
+{"t": 1791969751.1126103, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 111, "system": null}
+{"t": 1791969751.1351004, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 112, "system": 5, "role": "redundant"}
+{"t": 1791969751.1493473, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 112, "system": null}
+{"t": 1791969751.1647964, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 113, "system": 3, "role": "data"}
+{"t": 1791969751.1825569, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 113, "system": null}
+{"t": 1791969751.1951504, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 114, "system": 1, "role": "data"}
+{"t": 1791969751.213685, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 114, "system": null}
+{"t": 1791969751.2354574, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 115, "system": 5, "role": "redundant"}
+{"t": 1791969751.2517004, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 115, "system": null}
+{"t": 1791969751.2613547, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 116, "system": 0, "role": "data"}
+{"t": 1791969751.2784586, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 116, "system": null}
+{"t": 1791969751.2970338, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 117, "system": 4, "role": "redundant"}
+{"t": 1791969751.3126483, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 117, "system": null}
+{"t": 1791969751.3282833, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 118, "system": 3, "role": "data"}
+{"t": 1791969751.3458173, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 118, "system": null}
+{"t": 1791969751.36391, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 119, "system": 5, "role": "redundant"}
+{"t": 1791969751.3771875, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 119, "system": null}
+{"t": 1791969751.3966246, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 120, "system": 5, "role": "redundant"}
+{"t": 1791969751.4128275, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 120, "system": null}
+{"t": 1791969751.4265368, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 121, "system": 2, "role": "data"}
+{"t": 1791969751.442066, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 121, "system": null}
+{"t": 1791969751.4563181, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 122, "system": 3, "role": "data"}
+{"t": 1791969751.4724333, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 122, "system": null}
+{"t": 1791969751.478835, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 123, "system": 0, "role": "data"}
+{"t": 1791969751.4915383, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 123, "system": null}
+{"t": 1791969751.5036445, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 124, "system": 2, "role": "data"}
+{"t": 1791969751.5203767, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 124, "system": null}
+{"t": 1791969751.5319443, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 125, "system": 1, "role": "data"}
+{"t": 1791969751.5491076, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 125, "system": null}
+{"t": 1791969751.5628583, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 126, "system": 3, "role": "data"}
+{"t": 1791969751.5807154, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 126, "system": null}
+{"t": 1791969751.5973067, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 127, "system": 3, "role": "data"}
+{"t": 1791969751.6151307, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 127, "system": null}
+{"t": 1791969751.6247475, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 128, "system": 0, "role": "data"}
+{"t": 1791969751.6422908, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 128, "system": null}
+{"t": 1791969751.6601613, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 129, "system": 5, "role": "redundant"}
+{"t": 1791969751.6746414, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 129, "system": null}
+{"t": 1791969751.6942232, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 130, "system": 5, "role": "redundant"}
+{"t": 1791969751.710374, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 130, "system": null}
+{"t": 1791969751.729133, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 131, "system": 4, "role": "redundant"}
+{"t": 1791969751.7473724, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 131, "system": null}
+{"t": 1791969751.7610657, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 132, "system": 1, "role": "data"}
+{"t": 1791969751.7812827, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 132, "system": null}
+{"t": 1791969751.8002853, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 133, "system": 4, "role": "redundant"}
+{"t": 1791969751.8163981, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 133, "system": null}
+{"t": 1791969751.83933, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 134, "system": 5, "role": "redundant"}
+{"t": 1791969751.8575706, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 134, "system": null}
+{"t": 1791969751.8723664, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 135, "system": 2, "role": "data"}
+{"t": 1791969751.8912153, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 135, "system": null}
+{"t": 1791969751.9108644, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 136, "system": 4, "role": "redundant"}
+{"t": 1791969751.9292855, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 136, "system": null}
+{"t": 1791969751.957681, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 137, "system": 2, "role": "data"}
+{"t": 1791969751.9817877, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 137, "system": null}
+{"t": 1791969751.9918723, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 138, "system": 0, "role": "data"}
+{"t": 1791969752.0100994, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 138, "system": null}
+{"t": 1791969752.029437, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 139, "system": 4, "role": "redundant"}
+{"t": 1791969752.0458608, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 139, "system": null}
+{"t": 1791969752.060218, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 140, "system": 2, "role": "data"}
+{"t": 1791969752.0781722, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 140, "system": null}
+{"t": 1791969752.090622, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 141, "system": 1, "role": "data"}
+{"t": 1791969752.1088128, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 141, "system": null}
+{"t": 1791969752.129333, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 142, "system": 5, "role": "redundant"}
+{"t": 1791969752.1421955, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 142, "system": null}
+{"t": 1791969752.1538563, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 143, "system": 0, "role": "data"}
+{"t": 1791969752.1737506, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 143, "system": null}
+{"t": 1791969752.1870413, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 144, "system": 2, "role": "data"}
+{"t": 1791969752.2024207, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 144, "system": null}
+{"t": 1791969752.2146318, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 145, "system": 2, "role": "data"}
+{"t": 1791969752.2308953, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 145, "system": null}
+{"t": 1791969752.243932, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 146, "system": 2, "role": "data"}
+{"t": 1791969752.260986, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 146, "system": null}
+{"t": 1791969752.2743042, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 147, "system": 2, "role": "data"}
+{"t": 1791969752.2912257, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 147, "system": null}
+{"t": 1791969752.3005729, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 148, "system": 0, "role": "data"}
+{"t": 1791969752.3176126, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 148, "system": null}
+{"t": 1791969752.3285344, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 149, "system": 1, "role": "data"}
+{"t": 1791969752.3420038, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 149, "system": null}
+{"t": 1791969752.3580751, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 150, "system": 4, "role": "redundant"}
+{"t": 1791969752.3728042, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 150, "system": null}
+{"t": 1791969752.3897247, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 151, "system": 4, "role": "redundant"}
+{"t": 1791969752.4061842, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 151, "system": null}
+{"t": 1791969752.4202836, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 152, "system": 2, "role": "data"}
+{"t": 1791969752.4383693, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 152, "system": null}
+{"t": 1791969752.45376, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 153, "system": 4, "role": "redundant"}
+{"t": 1791969752.467759, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 153, "system": null}
+{"t": 1791969752.4790218, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 154, "system": 1, "role": "data"}
+{"t": 1791969752.4935615, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 154, "system": null}
+{"t": 1791969752.5006473, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 155, "system": 0, "role": "data"}
+{"t": 1791969752.5174434, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 155, "system": null}
+{"t": 1791969752.5323424, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 156, "system": 3, "role": "data"}
+{"t": 1791969752.5512683, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 156, "system": null}
+{"t": 1791969752.5688736, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 157, "system": 3, "role": "data"}
+{"t": 1791969752.587467, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 157, "system": null}
+{"t": 1791969752.6052027, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 158, "system": 4, "role": "redundant"}
+{"t": 1791969752.6212714, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 158, "system": null}
+{"t": 1791969752.6358433, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 159, "system": 2, "role": "data"}
+{"t": 1791969752.6522357, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 159, "system": null}
+{"t": 1791969752.667082, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 160, "system": 4, "role": "redundant"}
+{"t": 1791969752.6805627, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 160, "system": null}
+{"t": 1791969752.6908493, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 161, "system": 1, "role": "data"}
+{"t": 1791969752.7039406, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 161, "system": null}
+{"t": 1791969752.7127259, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 162, "system": 1, "role": "data"}
+{"t": 1791969752.7309797, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 162, "system": null}
+{"t": 1791969752.7527082, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 163, "system": 5, "role": "redundant"}
+{"t": 1791969752.7694416, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 163, "system": null}
+{"t": 1791969752.7862358, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 164, "system": 3, "role": "data"}
+{"t": 1791969752.804684, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 164, "system": null}
+{"t": 1791969752.8194923, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 165, "system": 2, "role": "data"}
+{"t": 1791969752.8372817, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 165, "system": null}
+{"t": 1791969752.8484633, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 166, "system": 0, "role": "data"}
+{"t": 1791969752.8670297, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 166, "system": null}
+{"t": 1791969752.886289, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 167, "system": 4, "role": "redundant"}
+{"t": 1791969752.902596, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 167, "system": null}
+{"t": 1791969752.9124854, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 168, "system": 0, "role": "data"}
+{"t": 1791969752.9302378, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 168, "system": null}
+{"t": 1791969752.9562612, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 169, "system": 3, "role": "data"}
+{"t": 1791969752.9737155, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 169, "system": null}
+{"t": 1791969752.9906762, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 170, "system": 4, "role": "redundant"}
+{"t": 1791969753.0069993, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 170, "system": null}
+{"t": 1791969753.023663, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 171, "system": 3, "role": "data"}
+{"t": 1791969753.0419967, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 171, "system": null}
+{"t": 1791969753.0566874, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 172, "system": 2, "role": "data"}
+{"t": 1791969753.0719287, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 172, "system": null}
+{"t": 1791969753.0922172, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 173, "system": 5, "role": "redundant"}
+{"t": 1791969753.1082723, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 173, "system": null}
+{"t": 1791969753.119821, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 174, "system": 1, "role": "data"}
+{"t": 1791969753.1365101, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 174, "system": null}
+{"t": 1791969753.145571, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 175, "system": 0, "role": "data"}
+{"t": 1791969753.1610649, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 175, "system": null}
+{"t": 1791969753.1726608, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 176, "system": 1, "role": "data"}
+{"t": 1791969753.1887853, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 176, "system": null}
+{"t": 1791969753.2013574, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 177, "system": 2, "role": "data"}
+{"t": 1791969753.2175, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 177, "system": null}
+{"t": 1791969753.2352972, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 178, "system": 5, "role": "redundant"}
+{"t": 1791969753.25078, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 178, "system": null}
+{"t": 1791969753.260129, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 179, "system": 0, "role": "data"}
+{"t": 1791969753.2775795, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 179, "system": null}
+{"t": 1791969753.288432, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 180, "system": 1, "role": "data"}
+{"t": 1791969753.3057616, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 180, "system": null}
+{"t": 1791969753.315193, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 181, "system": 0, "role": "data"}
+{"t": 1791969753.330875, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 181, "system": null}
+{"t": 1791969753.3498485, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 182, "system": 4, "role": "redundant"}
+{"t": 1791969753.3671312, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 182, "system": null}
+{"t": 1791969753.3845735, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 183, "system": 3, "role": "data"}
+{"t": 1791969753.40297, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 183, "system": null}
+{"t": 1791969753.4225168, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 184, "system": 4, "role": "redundant"}
+{"t": 1791969753.4400826, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 184, "system": null}
+{"t": 1791969753.4530153, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 185, "system": 1, "role": "data"}
+{"t": 1791969753.4704823, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 185, "system": null}
+{"t": 1791969753.4837396, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 186, "system": 3, "role": "data"}
+{"t": 1791969753.5007493, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 186, "system": null}
+{"t": 1791969753.5090287, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 187, "system": 0, "role": "data"}
+{"t": 1791969753.5272386, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 187, "system": null}
+{"t": 1791969753.541301, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 188, "system": 2, "role": "data"}
+{"t": 1791969753.5569863, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 188, "system": null}
+{"t": 1791969753.5717134, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 189, "system": 2, "role": "data"}
+{"t": 1791969753.5897841, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 189, "system": null}
+{"t": 1791969753.5998154, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 190, "system": 0, "role": "data"}
+{"t": 1791969753.6178641, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 190, "system": null}
+{"t": 1791969753.6352565, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 191, "system": 4, "role": "redundant"}
+{"t": 1791969753.648964, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 191, "system": null}
+{"t": 1791969753.6690884, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 192, "system": 5, "role": "redundant"}
+{"t": 1791969753.6847243, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 192, "system": null}
+{"t": 1791969753.6938493, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 193, "system": 0, "role": "data"}
+{"t": 1791969753.7113495, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 193, "system": null}
+{"t": 1791969753.723662, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 194, "system": 3, "role": "data"}
+{"t": 1791969753.739939, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 194, "system": null}
+{"t": 1791969753.7569342, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 195, "system": 5, "role": "redundant"}
+{"t": 1791969753.7723427, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 195, "system": null}
+{"t": 1791969753.7926495, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 196, "system": 4, "role": "redundant"}
+{"t": 1791969753.8064034, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 196, "system": null}
+{"t": 1791969753.8163726, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 197, "system": 1, "role": "data"}
+{"t": 1791969753.8327928, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 197, "system": null}
+{"t": 1791969753.8471959, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 198, "system": 3, "role": "data"}
+{"t": 1791969753.86635, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 198, "system": null}
+{"t": 1791969753.8880558, "kind": "armilla.guard", "verdict": 0, "job": "train", "step": 199, "system": 4, "role": "redundant"}
+{"t": 1791969753.9033058, "kind": "armilla.guard", "verdict": -1, "job": "train", "step": 199, "system": null}
+{"t": 1791969753.9179018, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 0, "system": 3, "role": "data"}
+{"t": 1791969753.934085, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 0, "system": null}
+{"t": 1791969753.9463918, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 1, "system": 2, "role": "data"}
+{"t": 1791969753.964054, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 1, "system": null}
+{"t": 1791969753.9741771, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 2, "system": 1, "role": "data"}
+{"t": 1791969753.9936635, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 2, "system": null}
+{"t": 1791969754.01309, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 3, "system": 5, "role": "redundant"}
+{"t": 1791969754.0325012, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 3, "system": null}
+{"t": 1791969754.0530252, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 4, "system": 5, "role": "redundant"}
+{"t": 1791969754.0699303, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 4, "system": null}
+{"t": 1791969754.0860786, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 5, "system": 3, "role": "data"}
+{"t": 1791969754.1051655, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 5, "system": null}
+{"t": 1791969754.1199136, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 6, "system": 3, "role": "data"}
+{"t": 1791969754.1404064, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 6, "system": null}
+{"t": 1791969754.1478488, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 7, "system": 0, "role": "data"}
+{"t": 1791969754.1648912, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 7, "system": null}
+{"t": 1791969754.1838245, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 8, "system": 3, "role": "data"}
+{"t": 1791969754.199934, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 8, "system": null}
+{"t": 1791969754.215516, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 9, "system": 3, "role": "data"}
+{"t": 1791969754.2328663, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 9, "system": null}
+{"t": 1791969754.240035, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 10, "system": 0, "role": "data"}
+{"t": 1791969754.2566233, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 10, "system": null}
+{"t": 1791969754.2719896, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 11, "system": 3, "role": "data"}
+{"t": 1791969754.2879336, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 11, "system": null}
+{"t": 1791969754.3036337, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 12, "system": 3, "role": "data"}
+{"t": 1791969754.3219283, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 12, "system": null}
+{"t": 1791969754.330238, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 13, "system": 0, "role": "data"}
+{"t": 1791969754.3479097, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 13, "system": null}
+{"t": 1791969754.3672323, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 14, "system": 4, "role": "redundant"}
+{"t": 1791969754.3859031, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 14, "system": null}
+{"t": 1791969754.4112377, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 15, "system": 5, "role": "redundant"}
+{"t": 1791969754.4313805, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 15, "system": null}
+{"t": 1791969754.4540117, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 16, "system": 5, "role": "redundant"}
+{"t": 1791969754.470105, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 16, "system": null}
+{"t": 1791969754.487759, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 17, "system": 5, "role": "redundant"}
+{"t": 1791969754.5025203, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 17, "system": null}
+{"t": 1791969754.5159059, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 18, "system": 2, "role": "data"}
+{"t": 1791969754.5304494, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 18, "system": null}
+{"t": 1791969754.54885, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 19, "system": 3, "role": "data"}
+{"t": 1791969754.5677617, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 19, "system": null}
+{"t": 1791969754.5748913, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 20, "system": 0, "role": "data"}
+{"t": 1791969754.5922537, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 20, "system": null}
+{"t": 1791969754.6006994, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 21, "system": 0, "role": "data"}
+{"t": 1791969754.6200187, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 21, "system": null}
+{"t": 1791969754.628203, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 22, "system": 0, "role": "data"}
+{"t": 1791969754.6436567, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 22, "system": null}
+{"t": 1791969754.6607368, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 23, "system": 4, "role": "redundant"}
+{"t": 1791969754.674335, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 23, "system": null}
+{"t": 1791969754.687279, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 24, "system": 2, "role": "data"}
+{"t": 1791969754.704849, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 24, "system": null}
+{"t": 1791969754.7152529, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 25, "system": 1, "role": "data"}
+{"t": 1791969754.7326834, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 25, "system": null}
+{"t": 1791969754.7474868, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 26, "system": 3, "role": "data"}
+{"t": 1791969754.7663205, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 26, "system": null}
+{"t": 1791969754.7823682, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 27, "system": 3, "role": "data"}
+{"t": 1791969754.7960925, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 27, "system": null}
+{"t": 1791969754.806832, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 28, "system": 3, "role": "data"}
+{"t": 1791969754.8230295, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 28, "system": null}
+{"t": 1791969754.8427825, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 29, "system": 4, "role": "redundant"}
+{"t": 1791969754.8616776, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 29, "system": null}
+{"t": 1791969754.8813548, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 30, "system": 4, "role": "redundant"}
+{"t": 1791969754.898741, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 30, "system": null}
+{"t": 1791969754.9174678, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 31, "system": 4, "role": "redundant"}
+{"t": 1791969754.930437, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 31, "system": null}
+{"t": 1791969754.9459693, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 32, "system": 3, "role": "data"}
+{"t": 1791969754.964197, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 32, "system": null}
+{"t": 1791969754.9753926, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 33, "system": 1, "role": "data"}
+{"t": 1791969754.9944255, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 33, "system": null}
+{"t": 1791969755.0059412, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 34, "system": 1, "role": "data"}
+{"t": 1791969755.025022, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 34, "system": null}
+{"t": 1791969755.03408, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 35, "system": 0, "role": "data"}
+{"t": 1791969755.0530872, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 35, "system": null}
+{"t": 1791969755.0713685, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 36, "system": 4, "role": "redundant"}
+{"t": 1791969755.0887728, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 36, "system": null}
+{"t": 1791969755.1040442, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 37, "system": 3, "role": "data"}
+{"t": 1791969755.126767, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 37, "system": null}
+{"t": 1791969755.1399612, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 38, "system": 2, "role": "data"}
+{"t": 1791969755.15857, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 38, "system": null}
+{"t": 1791969755.1675153, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 39, "system": 0, "role": "data"}
+{"t": 1791969755.186567, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 39, "system": null}
+{"t": 1791969755.1978421, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 40, "system": 1, "role": "data"}
+{"t": 1791969755.216133, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 40, "system": null}
+{"t": 1791969755.226063, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 41, "system": 1, "role": "data"}
+{"t": 1791969755.2401526, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 41, "system": null}
+{"t": 1791969755.2527213, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 42, "system": 2, "role": "data"}
+{"t": 1791969755.2703786, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 42, "system": null}
+{"t": 1791969755.279264, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 43, "system": 0, "role": "data"}
+{"t": 1791969755.2929413, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 43, "system": null}
+{"t": 1791969755.3025362, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 44, "system": 0, "role": "data"}
+{"t": 1791969755.320857, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 44, "system": null}
+{"t": 1791969755.3319619, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 45, "system": 2, "role": "data"}
+{"t": 1791969755.3477607, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 45, "system": null}
+{"t": 1791969755.357219, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 46, "system": 1, "role": "data"}
+{"t": 1791969755.374859, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 46, "system": null}
+{"t": 1791969755.385816, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 47, "system": 1, "role": "data"}
+{"t": 1791969755.4038744, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 47, "system": null}
+{"t": 1791969755.4216368, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 48, "system": 4, "role": "redundant"}
+{"t": 1791969755.4385076, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 48, "system": null}
+{"t": 1791969755.449045, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 49, "system": 1, "role": "data"}
+{"t": 1791969755.471168, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 49, "system": null}
+{"t": 1791969755.4875588, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 50, "system": 3, "role": "data"}
+{"t": 1791969755.5066953, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 50, "system": null}
+{"t": 1791969755.5228455, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 51, "system": 3, "role": "data"}
+{"t": 1791969755.5443423, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 51, "system": null}
+{"t": 1791969755.5620754, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 52, "system": 4, "role": "redundant"}
+{"t": 1791969755.5787451, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 52, "system": null}
+{"t": 1791969755.5920653, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 53, "system": 2, "role": "data"}
+{"t": 1791969755.6102962, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 53, "system": null}
+{"t": 1791969755.6190183, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 54, "system": 0, "role": "data"}
+{"t": 1791969755.6372507, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 54, "system": null}
+{"t": 1791969755.6570494, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 55, "system": 5, "role": "redundant"}
+{"t": 1791969755.673409, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 55, "system": null}
+{"t": 1791969755.6865551, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 56, "system": 2, "role": "data"}
+{"t": 1791969755.706285, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 56, "system": null}
+{"t": 1791969755.7281797, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 57, "system": 5, "role": "redundant"}
+{"t": 1791969755.7442653, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 57, "system": null}
+{"t": 1791969755.7641852, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 58, "system": 5, "role": "redundant"}
+{"t": 1791969755.7804222, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 58, "system": null}
+{"t": 1791969755.797407, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 59, "system": 4, "role": "redundant"}
+{"t": 1791969755.8136475, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 59, "system": null}
+{"t": 1791969755.8266144, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 60, "system": 2, "role": "data"}
+{"t": 1791969755.8443348, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 60, "system": null}
+{"t": 1791969755.855183, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 61, "system": 1, "role": "data"}
+{"t": 1791969755.872913, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 61, "system": null}
+{"t": 1791969755.8822615, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 62, "system": 0, "role": "data"}
+{"t": 1791969755.902804, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 62, "system": null}
+{"t": 1791969755.916022, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 63, "system": 0, "role": "data"}
+{"t": 1791969755.9435186, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 63, "system": null}
+{"t": 1791969755.9531653, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 64, "system": 0, "role": "data"}
+{"t": 1791969755.9733593, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 64, "system": null}
+{"t": 1791969755.9831927, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 65, "system": 0, "role": "data"}
+{"t": 1791969756.0043588, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 65, "system": null}
+{"t": 1791969756.0167894, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 66, "system": 1, "role": "data"}
+{"t": 1791969756.0350978, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 66, "system": null}
+{"t": 1791969756.0505219, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 67, "system": 4, "role": "redundant"}
+{"t": 1791969756.0666797, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 67, "system": null}
+{"t": 1791969756.0749736, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 68, "system": 0, "role": "data"}
+{"t": 1791969756.0938907, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 68, "system": null}
+{"t": 1791969756.1056483, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 69, "system": 2, "role": "data"}
+{"t": 1791969756.119509, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 69, "system": null}
+{"t": 1791969756.1339772, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 70, "system": 3, "role": "data"}
+{"t": 1791969756.1501045, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 70, "system": null}
+{"t": 1791969756.1603148, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 71, "system": 1, "role": "data"}
+{"t": 1791969756.1830285, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 71, "system": null}
+{"t": 1791969756.2032323, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 72, "system": 3, "role": "data"}
+{"t": 1791969756.2214909, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 72, "system": null}
+{"t": 1791969756.2399905, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 73, "system": 5, "role": "redundant"}
+{"t": 1791969756.2554069, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 73, "system": null}
+{"t": 1791969756.267856, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 74, "system": 2, "role": "data"}
+{"t": 1791969756.2841353, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 74, "system": null}
+{"t": 1791969756.291176, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 75, "system": 0, "role": "data"}
+{"t": 1791969756.321486, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 75, "system": null}
+{"t": 1791969756.3441658, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 76, "system": 1, "role": "data"}
+{"t": 1791969756.3615725, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 76, "system": null}
+{"t": 1791969756.369931, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 77, "system": 0, "role": "data"}
+{"t": 1791969756.386664, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 77, "system": null}
+{"t": 1791969756.3931916, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 78, "system": 1, "role": "data"}
+{"t": 1791969756.4099236, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 78, "system": null}
+{"t": 1791969756.4236453, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 79, "system": 2, "role": "data"}
+{"t": 1791969756.4426558, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 79, "system": null}
+{"t": 1791969756.4517195, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 80, "system": 0, "role": "data"}
+{"t": 1791969756.4707067, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 80, "system": null}
+{"t": 1791969756.4866993, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 81, "system": 3, "role": "data"}
+{"t": 1791969756.5057163, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 81, "system": null}
+{"t": 1791969756.5216548, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 82, "system": 3, "role": "data"}
+{"t": 1791969756.5405571, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 82, "system": null}
+{"t": 1791969756.5518193, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 83, "system": 1, "role": "data"}
+{"t": 1791969756.570637, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 83, "system": null}
+{"t": 1791969756.5888846, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 84, "system": 4, "role": "redundant"}
+{"t": 1791969756.6059227, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 84, "system": null}
+{"t": 1791969756.62197, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 85, "system": 3, "role": "data"}
+{"t": 1791969756.6406877, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 85, "system": null}
+{"t": 1791969756.658999, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 86, "system": 4, "role": "redundant"}
+{"t": 1791969756.676106, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 86, "system": null}
+{"t": 1791969756.6965373, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 87, "system": 5, "role": "redundant"}
+{"t": 1791969756.7110345, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 87, "system": null}
+{"t": 1791969756.7180746, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 88, "system": 0, "role": "data"}
+{"t": 1791969756.7350245, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 88, "system": null}
+{"t": 1791969756.7458694, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 89, "system": 1, "role": "data"}
+{"t": 1791969756.7611604, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 89, "system": null}
+{"t": 1791969756.7805293, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 90, "system": 5, "role": "redundant"}
+{"t": 1791969756.7972054, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 90, "system": null}
+{"t": 1791969756.8128238, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 91, "system": 3, "role": "data"}
+{"t": 1791969756.828466, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 91, "system": null}
+{"t": 1791969756.8516872, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 92, "system": 5, "role": "redundant"}
+{"t": 1791969756.8695614, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 92, "system": null}
+{"t": 1791969756.8928368, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 93, "system": 5, "role": "redundant"}
+{"t": 1791969756.9088008, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 93, "system": null}
+{"t": 1791969756.9174368, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 94, "system": 0, "role": "data"}
+{"t": 1791969756.9349744, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 94, "system": null}
+{"t": 1791969756.9500759, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 95, "system": 4, "role": "redundant"}
+{"t": 1791969756.963077, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 95, "system": null}
+{"t": 1791969756.974307, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 96, "system": 1, "role": "data"}
+{"t": 1791969756.9946594, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 96, "system": null}
+{"t": 1791969757.007071, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 97, "system": 1, "role": "data"}
+{"t": 1791969757.0292032, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 97, "system": null}
+{"t": 1791969757.047802, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 98, "system": 3, "role": "data"}
+{"t": 1791969757.0698118, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 98, "system": null}
+{"t": 1791969757.088238, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 99, "system": 3, "role": "data"}
+{"t": 1791969757.1100469, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 99, "system": null}
+{"t": 1791969757.1263442, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 100, "system": 2, "role": "data"}
+{"t": 1791969757.147772, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 100, "system": null}
+{"t": 1791969757.165854, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 101, "system": 3, "role": "data"}
+{"t": 1791969757.1961536, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 101, "system": null}
+{"t": 1791969757.213711, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 102, "system": 0, "role": "data"}
+{"t": 1791969757.2396185, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 102, "system": null}
+{"t": 1791969757.2570755, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 103, "system": 2, "role": "data"}
+{"t": 1791969757.2799616, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 103, "system": null}
+{"t": 1791969757.2955606, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 104, "system": 2, "role": "data"}
+{"t": 1791969757.3168766, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 104, "system": null}
+{"t": 1791969757.3350816, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 105, "system": 3, "role": "data"}
+{"t": 1791969757.3568747, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 105, "system": null}
+{"t": 1791969757.377797, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 106, "system": 4, "role": "redundant"}
+{"t": 1791969757.3971164, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 106, "system": null}
+{"t": 1791969757.4206007, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 107, "system": 5, "role": "redundant"}
+{"t": 1791969757.440192, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 107, "system": null}
+{"t": 1791969757.4607193, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 108, "system": 4, "role": "redundant"}
+{"t": 1791969757.4801226, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 108, "system": null}
+{"t": 1791969757.4984555, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 109, "system": 3, "role": "data"}
+{"t": 1791969757.5195458, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 109, "system": null}
+{"t": 1791969757.53784, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 110, "system": 3, "role": "data"}
+{"t": 1791969757.5594227, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 110, "system": null}
+{"t": 1791969757.5773106, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 111, "system": 3, "role": "data"}
+{"t": 1791969757.5956345, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 111, "system": null}
+{"t": 1791969757.614038, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 112, "system": 5, "role": "redundant"}
+{"t": 1791969757.6290421, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 112, "system": null}
+{"t": 1791969757.6405807, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 113, "system": 2, "role": "data"}
+{"t": 1791969757.656211, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 113, "system": null}
+{"t": 1791969757.6679673, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 114, "system": 4, "role": "redundant"}
+{"t": 1791969757.6832848, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 114, "system": null}
+{"t": 1791969757.6978717, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 115, "system": 4, "role": "redundant"}
+{"t": 1791969757.711015, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 115, "system": null}
+{"t": 1791969757.7194061, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 116, "system": 0, "role": "data"}
+{"t": 1791969757.736277, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 116, "system": null}
+{"t": 1791969757.7447472, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 117, "system": 0, "role": "data"}
+{"t": 1791969757.774253, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 117, "system": null}
+{"t": 1791969757.7991936, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 118, "system": 3, "role": "data"}
+{"t": 1791969757.818997, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 118, "system": null}
+{"t": 1791969757.8313093, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 119, "system": 2, "role": "data"}
+{"t": 1791969757.8477573, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 119, "system": null}
+{"t": 1791969757.864574, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 120, "system": 4, "role": "redundant"}
+{"t": 1791969757.879185, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 120, "system": null}
+{"t": 1791969757.8869936, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 121, "system": 0, "role": "data"}
+{"t": 1791969757.90396, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 121, "system": null}
+{"t": 1791969757.922788, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 122, "system": 5, "role": "redundant"}
+{"t": 1791969757.939143, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 122, "system": null}
+{"t": 1791969757.9544654, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 123, "system": 3, "role": "data"}
+{"t": 1791969757.971762, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 123, "system": null}
+{"t": 1791969757.9859262, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 124, "system": 3, "role": "data"}
+{"t": 1791969758.0079584, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 124, "system": null}
+{"t": 1791969758.016649, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 125, "system": 0, "role": "data"}
+{"t": 1791969758.0357115, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 125, "system": null}
+{"t": 1791969758.0465865, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 126, "system": 2, "role": "data"}
+{"t": 1791969758.0630918, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 126, "system": null}
+{"t": 1791969758.0816572, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 127, "system": 5, "role": "redundant"}
+{"t": 1791969758.0994334, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 127, "system": null}
+{"t": 1791969758.112346, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 128, "system": 1, "role": "data"}
+{"t": 1791969758.1313677, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 128, "system": null}
+{"t": 1791969758.140604, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 129, "system": 0, "role": "data"}
+{"t": 1791969758.159757, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 129, "system": null}
+{"t": 1791969758.171196, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 130, "system": 3, "role": "data"}
+{"t": 1791969758.189319, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 130, "system": null}
+{"t": 1791969758.2175171, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 131, "system": 5, "role": "redundant"}
+{"t": 1791969758.232709, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 131, "system": null}
+{"t": 1791969758.2510395, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 132, "system": 4, "role": "redundant"}
+{"t": 1791969758.2679129, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 132, "system": null}
+{"t": 1791969758.2791464, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 133, "system": 2, "role": "data"}
+{"t": 1791969758.2942805, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 133, "system": null}
+{"t": 1791969758.308512, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 134, "system": 4, "role": "redundant"}
+{"t": 1791969758.323834, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 134, "system": null}
+{"t": 1791969758.3389673, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 135, "system": 4, "role": "redundant"}
+{"t": 1791969758.3541589, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 135, "system": null}
+{"t": 1791969758.3742158, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 136, "system": 4, "role": "redundant"}
+{"t": 1791969758.3945227, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 136, "system": null}
+{"t": 1791969758.4114645, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 137, "system": 2, "role": "data"}
+{"t": 1791969758.4324324, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 137, "system": null}
+{"t": 1791969758.4395711, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 138, "system": 0, "role": "data"}
+{"t": 1791969758.4561665, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 138, "system": null}
+{"t": 1791969758.462608, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 139, "system": 0, "role": "data"}
+{"t": 1791969758.4820268, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 139, "system": null}
+{"t": 1791969758.4968607, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 140, "system": 4, "role": "redundant"}
+{"t": 1791969758.5128524, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 140, "system": null}
+{"t": 1791969758.5251682, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 141, "system": 2, "role": "data"}
+{"t": 1791969758.5400898, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 141, "system": null}
+{"t": 1791969758.550396, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 142, "system": 3, "role": "data"}
+{"t": 1791969758.566251, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 142, "system": null}
+{"t": 1791969758.5776584, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 143, "system": 1, "role": "data"}
+{"t": 1791969758.5959833, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 143, "system": null}
+{"t": 1791969758.6165705, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 144, "system": 5, "role": "redundant"}
+{"t": 1791969758.6337256, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 144, "system": null}
+{"t": 1791969758.6450078, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 145, "system": 1, "role": "data"}
+{"t": 1791969758.6638303, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 145, "system": null}
+{"t": 1791969758.6796606, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 146, "system": 3, "role": "data"}
+{"t": 1791969758.6984994, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 146, "system": null}
+{"t": 1791969758.7120109, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 147, "system": 2, "role": "data"}
+{"t": 1791969758.7310224, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 147, "system": null}
+{"t": 1791969758.7397985, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 148, "system": 0, "role": "data"}
+{"t": 1791969758.7584023, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 148, "system": null}
+{"t": 1791969758.7765918, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 149, "system": 4, "role": "redundant"}
+{"t": 1791969758.7939122, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 149, "system": null}
+{"t": 1791969758.8122854, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 150, "system": 4, "role": "redundant"}
+{"t": 1791969758.8293645, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 150, "system": null}
+{"t": 1791969758.8507004, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 151, "system": 5, "role": "redundant"}
+{"t": 1791969758.8668098, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 151, "system": null}
+{"t": 1791969758.8795493, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 152, "system": 2, "role": "data"}
+{"t": 1791969758.8964243, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 152, "system": null}
+{"t": 1791969758.9179778, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 153, "system": 5, "role": "redundant"}
+{"t": 1791969758.9448514, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 153, "system": null}
+{"t": 1791969758.9636912, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 154, "system": 3, "role": "data"}
+{"t": 1791969758.984773, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 154, "system": null}
+{"t": 1791969759.0083542, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 155, "system": 5, "role": "redundant"}
+{"t": 1791969759.0277176, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 155, "system": null}
+{"t": 1791969759.04887, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 156, "system": 3, "role": "data"}
+{"t": 1791969759.0700612, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 156, "system": null}
+{"t": 1791969759.0829947, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 157, "system": 1, "role": "data"}
+{"t": 1791969759.1042604, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 157, "system": null}
+{"t": 1791969759.1171691, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 158, "system": 1, "role": "data"}
+{"t": 1791969759.139897, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 158, "system": null}
+{"t": 1791969759.1503358, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 159, "system": 0, "role": "data"}
+{"t": 1791969759.1720471, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 159, "system": null}
+{"t": 1791969759.193166, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 160, "system": 4, "role": "redundant"}
+{"t": 1791969759.2152839, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 160, "system": null}
+{"t": 1791969759.238684, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 161, "system": 3, "role": "data"}
+{"t": 1791969759.2595353, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 161, "system": null}
+{"t": 1791969759.2762017, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 162, "system": 2, "role": "data"}
+{"t": 1791969759.2943163, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 162, "system": null}
+{"t": 1791969759.3051333, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 163, "system": 1, "role": "data"}
+{"t": 1791969759.3233337, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 163, "system": null}
+{"t": 1791969759.3349068, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 164, "system": 1, "role": "data"}
+{"t": 1791969759.353176, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 164, "system": null}
+{"t": 1791969759.361564, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 165, "system": 0, "role": "data"}
+{"t": 1791969759.377841, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 165, "system": null}
+{"t": 1791969759.3939657, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 166, "system": 3, "role": "data"}
+{"t": 1791969759.41434, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 166, "system": null}
+{"t": 1791969759.4274588, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 167, "system": 1, "role": "data"}
+{"t": 1791969759.449735, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 167, "system": null}
+{"t": 1791969759.4626265, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 168, "system": 1, "role": "data"}
+{"t": 1791969759.4842618, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 168, "system": null}
+{"t": 1791969759.4972165, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 169, "system": 1, "role": "data"}
+{"t": 1791969759.518782, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 169, "system": null}
+{"t": 1791969759.5286636, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 170, "system": 0, "role": "data"}
+{"t": 1791969759.5502017, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 170, "system": null}
+{"t": 1791969759.5740812, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 171, "system": 5, "role": "redundant"}
+{"t": 1791969759.5935946, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 171, "system": null}
+{"t": 1791969759.6091607, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 172, "system": 2, "role": "data"}
+{"t": 1791969759.630028, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 172, "system": null}
+{"t": 1791969759.6455498, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 173, "system": 2, "role": "data"}
+{"t": 1791969759.666914, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 173, "system": null}
+{"t": 1791969759.6825254, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 174, "system": 2, "role": "data"}
+{"t": 1791969759.703323, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 174, "system": null}
+{"t": 1791969759.7244053, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 175, "system": 4, "role": "redundant"}
+{"t": 1791969759.746529, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 175, "system": null}
+{"t": 1791969759.7618337, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 176, "system": 2, "role": "data"}
+{"t": 1791969759.7861438, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 176, "system": null}
+{"t": 1791969759.8089113, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 177, "system": 4, "role": "redundant"}
+{"t": 1791969759.8283482, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 177, "system": null}
+{"t": 1791969759.8494296, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 178, "system": 4, "role": "redundant"}
+{"t": 1791969759.8695803, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 178, "system": null}
+{"t": 1791969759.8910542, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 179, "system": 2, "role": "data"}
+{"t": 1791969759.912738, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 179, "system": null}
+{"t": 1791969759.9392295, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 180, "system": 4, "role": "redundant"}
+{"t": 1791969759.9592586, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 180, "system": null}
+{"t": 1791969759.97511, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 181, "system": 1, "role": "data"}
+{"t": 1791969759.9973276, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 181, "system": null}
+{"t": 1791969760.0088875, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 182, "system": 1, "role": "data"}
+{"t": 1791969760.0270798, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 182, "system": null}
+{"t": 1791969760.0455155, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 183, "system": 4, "role": "redundant"}
+{"t": 1791969760.0629263, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 183, "system": null}
+{"t": 1791969760.085187, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 184, "system": 5, "role": "redundant"}
+{"t": 1791969760.1086683, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 184, "system": null}
+{"t": 1791969760.129221, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 185, "system": 3, "role": "data"}
+{"t": 1791969760.1518507, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 185, "system": null}
+{"t": 1791969760.1655705, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 186, "system": 2, "role": "data"}
+{"t": 1791969760.184954, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 186, "system": null}
+{"t": 1791969760.2043493, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 187, "system": 4, "role": "redundant"}
+{"t": 1791969760.222456, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 187, "system": null}
+{"t": 1791969760.232699, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 188, "system": 0, "role": "data"}
+{"t": 1791969760.2521484, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 188, "system": null}
+{"t": 1791969760.2733018, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 189, "system": 5, "role": "redundant"}
+{"t": 1791969760.2910526, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 189, "system": null}
+{"t": 1791969760.3096197, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 190, "system": 4, "role": "redundant"}
+{"t": 1791969760.3252468, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 190, "system": null}
+{"t": 1791969760.3363142, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 191, "system": 1, "role": "data"}
+{"t": 1791969760.3583677, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 191, "system": null}
+{"t": 1791969760.3793087, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 192, "system": 4, "role": "redundant"}
+{"t": 1791969760.3970098, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 192, "system": null}
+{"t": 1791969760.4136791, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 193, "system": 4, "role": "redundant"}
+{"t": 1791969760.4295585, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 193, "system": null}
+{"t": 1791969760.4492323, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 194, "system": 5, "role": "redundant"}
+{"t": 1791969760.4658105, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 194, "system": null}
+{"t": 1791969760.476469, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 195, "system": 0, "role": "data"}
+{"t": 1791969760.4928977, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 195, "system": null}
+{"t": 1791969760.5053506, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 196, "system": 2, "role": "data"}
+{"t": 1791969760.5246532, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 196, "system": null}
+{"t": 1791969760.546327, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 197, "system": 5, "role": "redundant"}
+{"t": 1791969760.562559, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 197, "system": null}
+{"t": 1791969760.5737998, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 198, "system": 1, "role": "data"}
+{"t": 1791969760.5920413, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 198, "system": null}
+{"t": 1791969760.6008425, "kind": "armilla.guard", "verdict": 0, "job": "bignum", "step": 199, "system": 0, "role": "data"}
+{"t": 1791969760.6182275, "kind": "armilla.guard", "verdict": -1, "job": "bignum", "step": 199, "system": null}

@@ -1,0 +1,4 @@
+cpu: AMD EPYC 4564P 16-Core Processor; bin sha256 d5709aae3d69837d
+threads=1 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014 decode 16 tokens in 2.618s = 6.112 tok/s 
+threads=4 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014 decode 16 tokens in 1.190s = 13.449 tok/s 
+threads=8 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014 decode 16 tokens in 1.060s = 15.090 tok/s 

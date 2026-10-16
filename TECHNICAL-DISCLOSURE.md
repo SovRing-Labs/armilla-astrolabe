@@ -406,6 +406,13 @@ ternary weights and the cyclone's wiring and synchronisation. Built and measured
   2021).** These established base conversion between ring sets and IFMA-accelerated modular arithmetic before this work; §7's
   use of IFMA for RNS modular multiplication is an application of that field knowledge, not a first. No code from these
   projects was read (their READMEs only).
+- **Residue numbers in high-dimensional vectors, and integer reservoirs (added in 0.1.2):** Residue Hyperdimensional Computing
+  (Kymn, Kleyko, Frady, Bybee, Kanerva, Sommer & Olshausen, "Computing with Residue Numbers in High-Dimensional Representation",
+  Neural Computation 2025, arXiv 2311.04872) encodes residue numbers over coprime moduli as hypervectors; Integer Echo State
+  Networks (Kleyko, Frady, Kheffache & Osipov, arXiv 1706.00280) run reservoir computing in small-integer arithmetic. Both
+  predate and are the closest field kin to this work's residue-coded rings and integer reservoir cores; this package's rings
+  are exact integer residues in lattice boxes, not hypervectors, and claims here are limited to the measured results above.
+  No code from either was read (papers only).
 - RNS Montgomery: Posch & Posch (1995); Bajard, Didier & Kornerup (1998); Kawamura et al. (2000).
 - Redundant-modulus base extension: Shenoy & Kumaresan (1989).
 - Redundant RNS error detection and correction: Watson & Hastings (1966); Barsi & Maestrini (1973).

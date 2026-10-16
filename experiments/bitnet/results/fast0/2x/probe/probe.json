@@ -1,0 +1,38 @@
+{
+ "steps": 64,
+ "energy_top": {
+  "64": 0.32398582717168845,
+  "128": 0.3693612145670602,
+  "256": 0.43837166995855437,
+  "512": 0.5416951138058753,
+  "1024": 0.6994115026599887
+ },
+ "pca128": {
+  "mean_surv": 128256.0,
+  "max_surv": 128256,
+  "bytes_stageA_int8": 16416768
+ },
+ "pca256": {
+  "mean_surv": 128256.0,
+  "max_surv": 128256,
+  "bytes_stageA_int8": 32833536
+ },
+ "pca512": {
+  "mean_surv": 128256.0,
+  "max_surv": 128256,
+  "bytes_stageA_int8": 65667072
+ },
+ "pca1024": {
+  "mean_surv": 128256.0,
+  "max_surv": 128256,
+  "bytes_stageA_int8": 131334144
+ },
+ "kmeans1024": {
+  "mean_rows_in_kept_clusters(oracle lower bound)": 127838.25,
+  "mean_radius_over_rownorm": 0.48764747381210327
+ },
+ "kmeans4096": {
+  "mean_rows_in_kept_clusters(oracle lower bound)": 126618.390625,
+  "mean_radius_over_rownorm": 0.4434499740600586
+ }
+}

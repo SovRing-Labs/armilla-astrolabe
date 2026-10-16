@@ -1,0 +1,9 @@
+load 0.66s
+headcheck ok through step 1
+headcheck ok through step 16
+headcheck ok through step 32
+headcheck ok through step 48
+headcheck ok through step 64
+decode 64 tokens in 3.678s = 17.400 tok/s (8 threads, prefill 16 tokens excluded)
+head survivors: mean 720.3 max 15463 of 128256 over 64 steps
+time split (all tokens incl prefill): precompute 0.00s pull 1.38s crt 0.00s logits 2.10s forward-total 0.00s

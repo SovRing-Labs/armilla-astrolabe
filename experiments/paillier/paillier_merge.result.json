@@ -1,0 +1,28 @@
+{
+ "date": "2026-10-14",
+ "host": "laptop i5-8365U (AVX2, no AVX-512 IFMA)",
+ "E1_rns_backend_512": {
+  "n_bits": 512,
+  "n2_bits": 1023,
+  "rings_A": 70,
+  "rings_B": 70,
+  "check_rings": 4,
+  "modexp_mismatches_vs_pow": 0,
+  "mont_calls": 18885,
+  "centre_checks_agreed": 18885,
+  "dec_enc_roundtrip": true,
+  "merged_equals_plain_sum": true,
+  "ms_per_enc_rns_python": 11019.7,
+  "ms_per_dec_rns_python": 11722.1,
+  "verdict": "PASS"
+ },
+ "E2_full_2048_pow": {
+  "n_bits": 2048,
+  "sum_ok": true,
+  "ms_per_enc_pow": 664.9,
+  "ms_per_dec_pow": 657.1
+ },
+ "open": "Armilla IFMA modexp vs GMP inside Paillier at 2,048-bit n: needs an AVX-512 IFMA host (pod)",
+ "verdict": "PASS",
+ "seconds": 284.2
+}

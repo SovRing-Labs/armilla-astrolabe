@@ -1,0 +1,3 @@
+load 4.70s
+decode 64 tokens in 18.836s = 3.398 tok/s (4 threads, prefill 13 tokens excluded)
+time split (all tokens incl prefill): precompute 3.74s pull 10.98s logits 3.28s

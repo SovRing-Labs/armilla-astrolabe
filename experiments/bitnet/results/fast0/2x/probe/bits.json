@@ -1,0 +1,33 @@
+{
+ "steps": 64,
+ "8bit": {
+  "mean_surv": 6.125,
+  "max_surv": 98,
+  "pass1_MB": 328.33536,
+  "rescore_MB_at_int8": 0.01568
+ },
+ "6bit": {
+  "mean_surv": 1618.53125,
+  "max_surv": 59643,
+  "pass1_MB": 246.25152,
+  "rescore_MB_at_int8": 4.14344
+ },
+ "5bit": {
+  "mean_surv": 40580.296875,
+  "max_surv": 128252,
+  "pass1_MB": 205.2096,
+  "rescore_MB_at_int8": 103.88556
+ },
+ "4bit": {
+  "mean_surv": 128197.109375,
+  "max_surv": 128256,
+  "pass1_MB": 164.16768,
+  "rescore_MB_at_int8": 328.1846
+ },
+ "3bit": {
+  "mean_surv": 128256.0,
+  "max_surv": 128256,
+  "pass1_MB": 123.12576,
+  "rescore_MB_at_int8": 328.33536
+ }
+}

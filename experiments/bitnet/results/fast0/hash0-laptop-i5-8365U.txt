@@ -1,0 +1,4 @@
+cpu: Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz; bin sha256 2736de206f262b34
+threads=1 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014 decode 16 tokens in 11.079s = 1.444 tok/s 
+threads=4 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014 decode 16 tokens in 5.531s = 2.893 tok/s 
+threads=8 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014 decode 16 tokens in 32.262s = 0.496 tok/s 

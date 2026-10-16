@@ -1,0 +1,4 @@
+cmd: ABN_CHECK=1 ABN_T5=1 armilla_fast5 (AVX2 build = scalar twin) MODEL 1 4 128000 791
+pulls checked: 420; with any mismatch: 0
+t5 check O=2560 K=2560 mismatches_vs_5trit_direct=0 mismatches_vs_hf_weights=0
+t5 check O=640 K=2560 mismatches_vs_5trit_direct=0 mismatches_vs_hf_weights=0

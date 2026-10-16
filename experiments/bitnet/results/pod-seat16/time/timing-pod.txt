@@ -1,0 +1,12 @@
+cpu: AMD EPYC 4564P 16-Core Processor; threads=8; nproc=8; armilla_bitnet.c sha256 15772039dc919ccd; gguf sha256 4221b252fdd5fd25
+ref rep1 load=3.31 decode 64 tokens in 2.611s = 24.516 tok/s (8 threads)
+arm-silu-f16kv rep1 load=3.69 decode 64 tokens in 4.324s = 14.801 tok/s (8 threads, prefill 16 tokens excluded)
+arm-relu2 rep1 load=4.03 decode 64 tokens in 3.699s = 17.302 tok/s (8 threads, prefill 16 tokens excluded)
+ref rep2 load=4.35 decode 64 tokens in 2.140s = 29.911 tok/s (8 threads)
+arm-silu-f16kv rep2 load=4.64 decode 64 tokens in 4.896s = 13.072 tok/s (8 threads, prefill 16 tokens excluded)
+arm-relu2 rep2 load=4.91 decode 64 tokens in 4.031s = 15.877 tok/s (8 threads, prefill 16 tokens excluded)
+ref rep3 load=5.16 decode 64 tokens in 3.599s = 17.782 tok/s (8 threads)
+arm-silu-f16kv rep3 load=5.39 decode 64 tokens in 4.293s = 14.907 tok/s (8 threads, prefill 16 tokens excluded)
+arm-relu2 rep3 load=5.23 decode 64 tokens in 4.163s = 15.372 tok/s (8 threads, prefill 16 tokens excluded)
+== llama-perplexity (bitnet.cpp's own tool) on the same text, -c 512
+./bin/llama-perplexity: error while loading shared libraries: libllama-perplexity-impl.so: cannot open shared object file: No such file or directory

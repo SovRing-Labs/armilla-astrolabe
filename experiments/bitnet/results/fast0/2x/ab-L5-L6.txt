@@ -1,0 +1,17 @@
+L5 logits16 sha256=c782fadc5375c881
+L6 logits16 sha256=c782fadc5375c881
+ref rep1 load=2.71 decode 64 tokens in 4.840s = 13.224 tok/s 
+L5 rep1 load=3.53 decode 64 tokens in 1.591s = 40.232 tok/s 
+L6 rep1 load=3.53 decode 64 tokens in 1.603s = 39.919 tok/s 
+ref rep2 load=3.89 decode 64 tokens in 2.166s = 29.543 tok/s 
+L5 rep2 load=3.89 decode 64 tokens in 1.578s = 40.553 tok/s 
+L6 rep2 load=4.22 decode 64 tokens in 1.554s = 41.177 tok/s 
+ref rep3 load=4.52 decode 64 tokens in 2.143s = 29.860 tok/s 
+L5 rep3 load=4.52 decode 64 tokens in 1.585s = 40.367 tok/s 
+L6 rep3 load=4.80 decode 64 tokens in 1.593s = 40.171 tok/s 
+ref rep4 load=4.80 decode 64 tokens in 2.153s = 29.720 tok/s 
+L5 rep4 load=5.21 decode 64 tokens in 1.566s = 40.861 tok/s 
+L6 rep4 load=5.21 decode 64 tokens in 1.580s = 40.506 tok/s 
+ref rep5 load=5.52 decode 64 tokens in 2.158s = 29.651 tok/s 
+L5 rep5 load=5.72 decode 64 tokens in 1.575s = 40.634 tok/s 
+L6 rep5 load=5.72 decode 64 tokens in 1.564s = 40.934 tok/s 

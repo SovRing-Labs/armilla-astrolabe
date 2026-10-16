@@ -1,0 +1,6 @@
+K=1 passes=64 tokens/pass=1.00
+K=2 passes=60 tokens/pass=1.07
+K=3 passes=58 tokens/pass=1.10
+K=4 passes=58 tokens/pass=1.10
+K=6 passes=58 tokens/pass=1.10
+K=8 passes=58 tokens/pass=1.10

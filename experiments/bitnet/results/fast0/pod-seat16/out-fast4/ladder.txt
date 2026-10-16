@@ -1,0 +1,16 @@
+cpu: AMD EPYC 4564P 16-Core Processor; threads=8; armilla_fast.c sha256 ef3220d62bc76c06; levels: 2 3 4
+level 2 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014
+level 3 logits_sha256=16ba3979650963461f254c19ba44781c4edcae02e5e3a0d3fb817903ca50acae tokens_sha256=b5b2aa78c48e3014
+level 4 logits_sha256=c782fadc5375c881c057b6935774908e1e7f577b9bb37d03512fdf99dfdf5657 tokens_sha256=b5b2aa78c48e3014
+ref rep1 load=15.43 decode 64 tokens in 3.517s = 18.199 tok/s (8 threads)
+armilla L2 rep1 load=17.80 decode 64 tokens in 3.068s = 20.861 tok/s time split (all tokens incl prefill): precompute 0.22s pull 1.54s crt 0.11s logits 1.13s forward-total 0.00s 
+armilla L3 rep1 load=20.22 decode 64 tokens in 3.189s = 20.071 tok/s time split (all tokens incl prefill): precompute 0.00s pull 1.93s crt 0.00s logits 1.14s forward-total 0.00s 
+armilla L4 rep1 load=20.22 decode 64 tokens in 2.463s = 25.980 tok/s head survivors: mean 720.3 max 15463 of 128256 over 64 steps time split (all tokens incl prefill): precompute 0.00s pull 1.73s crt 0.00s logits 0.60s forward-total 0.00s 
+ref rep2 load=21.56 decode 64 tokens in 2.736s = 23.392 tok/s (8 threads)
+armilla L2 rep2 load=23.76 decode 64 tokens in 19.653s = 3.257 tok/s time split (all tokens incl prefill): precompute 6.20s pull 12.11s crt 0.11s logits 1.16s forward-total 0.00s 
+armilla L3 rep2 load=30.31 decode 64 tokens in 24.672s = 2.594 tok/s time split (all tokens incl prefill): precompute 0.00s pull 23.32s crt 0.00s logits 1.22s forward-total 0.00s 
+armilla L4 rep2 load=34.55 decode 64 tokens in 2.638s = 24.260 tok/s head survivors: mean 720.3 max 15463 of 128256 over 64 steps time split (all tokens incl prefill): precompute 0.00s pull 1.91s crt 0.00s logits 0.62s forward-total 0.00s 
+ref rep3 load=35.31 decode 64 tokens in 2.876s = 22.256 tok/s (8 threads)
+armilla L2 rep3 load=36.33 decode 64 tokens in 4.379s = 14.617 tok/s time split (all tokens incl prefill): precompute 0.72s pull 2.32s crt 0.11s logits 1.19s forward-total 0.00s 
+armilla L3 rep3 load=37.66 decode 64 tokens in 14.336s = 4.464 tok/s time split (all tokens incl prefill): precompute 0.00s pull 13.04s crt 0.00s logits 1.18s forward-total 0.00s 
+armilla L4 rep3 load=39.54 decode 64 tokens in 2.459s = 26.024 tok/s head survivors: mean 720.3 max 15463 of 128256 over 64 steps time split (all tokens incl prefill): precompute 0.00s pull 1.73s crt 0.00s logits 0.60s forward-total 0.00s 

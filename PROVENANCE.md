@@ -1,4 +1,4 @@
-# Provenance — Armilla Astrolabe 0.1.0
+# Provenance — Armilla Astrolabe 0.1.2
 
 All code in this package was written for it from published method descriptions; no other implementation was read or copied.
 No third-party code or data is vendored. Runtime dependencies: Python 3, NumPy; the kernel benchmark also uses gmpy2 (GMP) as a
@@ -14,6 +14,8 @@ baseline only.
 | Lattice (gelosia) multiplication | Treviso Arithmetic 1478; Pacioli 1494 | ring residues in the boxes under the diagonal bound |
 | Lazy modular reduction, limb (schoolbook) multiplication | field-known | — |
 | Six-system layout (triangle, centre, top, bottom) | the author's design | ours |
+| Residue numbers as high-dimensional vectors (closest field kin) | Kymn, Kleyko, Frady, Bybee, Kanerva, Sommer & Olshausen, Neural Computation 2025 (arXiv 2311.04872) | — (ours uses exact integer residues, not hypervectors) |
+| Integer reservoir computing (closest field kin) | Kleyko, Frady, Kheffache & Osipov, Integer Echo State Networks (arXiv 1706.00280) | — |
 | Astrolabe plate display | classical stereographic astrolabe | display only |
 
 Prepared with AI assistance; the author reviews each document before publication.

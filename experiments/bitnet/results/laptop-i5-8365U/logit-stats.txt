@@ -1,0 +1,6 @@
+prompt A arm: first token difference at step none (64/64 identical); over 64 shared-context steps max|logit diff| 2.629, mean|diff| 0.2690
+prompt A card: first token difference at step 7; over 8 shared-context steps max|logit diff| 19.567, mean|diff| 7.4658
+prompt B arm: first token difference at step 10; over 11 shared-context steps max|logit diff| 1.073, mean|diff| 0.1952
+prompt B card: first token difference at step 0; over 1 shared-context steps max|logit diff| 20.471, mean|diff| 8.2804
+prompt C arm: first token difference at step none (64/64 identical); over 64 shared-context steps max|logit diff| 0.868, mean|diff| 0.1203
+prompt C card: first token difference at step 0; over 1 shared-context steps max|logit diff| 19.746, mean|diff| 4.7467

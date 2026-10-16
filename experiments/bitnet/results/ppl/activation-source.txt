@@ -1,0 +1,8 @@
+activation source lines (fetched 2026-10-13):
+hf microsoft/bitnet-b1.58-2B-4T config.json: 11:    "hidden_act": "relu2",
+local hf_model/config.json: 11:    "hidden_act": "relu2",
+transformers src/transformers/models/bitnet/modeling_bitnet.py:72: self.act_fn = ACT2FN[config.hidden_act]
+…:76: down_proj = self.down_proj(self.ffn_sub_norm(self.act_fn(self.gate_proj(x)) * self.up_proj(x)))
+activations.py: 340: relu2: ReLUSquaredActivation,
+model card README.md:39: * Uses squared ReLU (ReLU²) activation in FFN layers.
+bitnet.cpp graph: 133: LLM_FFN_SILU, LLM_FFN_PAR, il);

@@ -30,6 +30,7 @@ No security claim: the code is not audited and the conversions in and out are no
 ## Run it
 
 ```bash
+./reproduce.sh                                        # clean clone -> self-test -> results table from the committed result files
 ./install.sh                                         # self-test, then the console on http://127.0.0.1:8989
 PYTHONPATH=engine python3 -m pytest -q engine/tests
 python3 experiments/probes.py                        # ring abacus, Gelosia, six systems, sign, RNS Montgomery
@@ -42,5 +43,7 @@ python3 experiments/gmp/bench_comb.py                # fixed-base comb
 ```
 
 Full method, every measurement and what is not yet tested: `TECHNICAL-DISCLOSURE.md`.
+
+Closest field kin, credited in `PROVENANCE.md`: Residue Hyperdimensional Computing (Kymn et al., Neural Computation 2025, arXiv 2311.04872) and Integer Echo State Networks (Kleyko et al., arXiv 1706.00280).
 
 Licence: PolyForm Small Business 1.0.0 or PolyForm Noncommercial 1.0.0 (see `LICENSING.md`). Published as prior art; no patents.

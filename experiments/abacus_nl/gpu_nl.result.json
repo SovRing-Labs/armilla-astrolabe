@@ -1,0 +1,78 @@
+{
+ "date": "2026-10-13",
+ "shapes": {
+  "small": {
+   "rows": 64,
+   "K": 256,
+   "V": 512,
+   "cs": 280466423,
+   "cpu_softmax_s": 0.327,
+   "mean_loss": 6.336076814831042,
+   "G1_mismatches_per_run": [
+    0,
+    0,
+    0
+   ],
+   "G2_runs_identical": true,
+   "G4_vs_fp64": {
+    "ring_lse_maxabs": 1.3491430195244902e-11,
+    "ring_loss_maxabs": 1.3490542016825202e-11,
+    "f32_lse_maxabs": 9.659200870260065e-07,
+    "f32_loss_maxabs": 1.1304313840554414e-06
+   },
+   "G3_gpu": {
+    "gpu": "NVIDIA RTX A6000",
+    "rows": 64,
+    "K": 256,
+    "V": 512,
+    "best_ms": 0.584,
+    "f32_best_ms": 0.137,
+    "reps": 3,
+    "kernels_ms": {
+     "gemm": 0.091,
+     "max": 0.043,
+     "exp": 0.196,
+     "row": 0.234,
+     "p": 0.019
+    }
+   }
+  },
+  "school": {
+   "rows": 128,
+   "K": 256,
+   "V": 4096,
+   "cs": 280466423,
+   "cpu_softmax_s": 5.554,
+   "mean_loss": 8.44537231925952,
+   "G1_mismatches_per_run": [
+    0,
+    0,
+    0
+   ],
+   "G2_runs_identical": true,
+   "G4_vs_fp64": {
+    "ring_lse_maxabs": 1.4662049352409667e-11,
+    "ring_loss_maxabs": 1.4662049352409667e-11,
+    "f32_lse_maxabs": 2.6286910888018156e-06,
+    "f32_loss_maxabs": 3.0864655631290816e-06
+   },
+   "G3_gpu": {
+    "gpu": "NVIDIA RTX A6000",
+    "rows": 128,
+    "K": 256,
+    "V": 4096,
+    "best_ms": 3.497,
+    "f32_best_ms": 1.435,
+    "reps": 3,
+    "kernels_ms": {
+     "gemm": 1.029,
+     "max": 0.164,
+     "exp": 1.825,
+     "row": 0.285,
+     "p": 0.166
+    }
+   }
+  }
+ },
+ "verdict": "PASS"
+}

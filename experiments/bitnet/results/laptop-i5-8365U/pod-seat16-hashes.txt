@@ -1,0 +1,7 @@
+threads=1 logits_sha256=2b5907a5329339403229c8cb9f71c9974f15bd5c7e5dc8295960c29a77022c2b
+decode 16 tokens in 2.524s = 6.340 tok/s (1 threads, prefill 16 tokens excluded)
+threads=4 logits_sha256=2b5907a5329339403229c8cb9f71c9974f15bd5c7e5dc8295960c29a77022c2b
+decode 16 tokens in 1.182s = 13.540 tok/s (4 threads, prefill 16 tokens excluded)
+threads=8 logits_sha256=2b5907a5329339403229c8cb9f71c9974f15bd5c7e5dc8295960c29a77022c2b
+decode 16 tokens in 1.086s = 14.737 tok/s (8 threads, prefill 16 tokens excluded)
+f87bd61a9f205865cfaa10bfdb2ae1845728256194b28f43cb77c0ab32f47781  thr4.tok

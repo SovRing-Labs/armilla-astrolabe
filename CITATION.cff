@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Armilla Astrolabe: a digital abacus"
-version: 0.1.1
-date-released: 2026-10-12
+version: 0.1.3
+date-released: 2026-10-16
 abstract: "A residue-number-system digital abacus for CPUs. Rings precompute answers and a centre pulls them into SIMD: an exact ternary AI engine (5-trit codes at 1.6 bits per weight, AVX-512 and AVX2), exact f16 forward and backward passes via an evolved Gelosia lattice, bit-identical training across harnesses, a three-diamond multi-core unit, and RNS Montgomery modular exponentiation with AVX-512 IFMA that is faster than GMP powmod_sec at 2,048-16,384 bits on one core, with a fixed-base comb. Every result is measured and exact; failures are reported. Published as defensive prior art."
 authors:
   - family-names: "De Santiago"

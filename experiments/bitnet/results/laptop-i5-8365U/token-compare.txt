@@ -1,0 +1,3 @@
+prompt A: token stream IDENTICAL to bitnet.cpp (64 tokens)
+prompt B: token stream DIFFERS from bitnet.cpp
+prompt C: token stream IDENTICAL to bitnet.cpp (64 tokens)

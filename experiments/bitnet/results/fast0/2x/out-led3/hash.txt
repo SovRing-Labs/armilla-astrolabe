@@ -1,0 +1,2 @@
+L3 logits off=16ba397965096346 on=16ba397965096346 load=1.32
+decode 64 tokens in 2.286s = 27.997 tok/s (8 threads, prefill 16 tokens excluded)

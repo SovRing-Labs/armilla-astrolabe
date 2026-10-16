@@ -1,0 +1,10 @@
+cpu: Intel(R) Core(TM) i5-8365U CPU @ 1.60GHz; threads=4; ref commit 0b341e5 (llama.cpp build 390c30775); armilla commit 0606d05
+ref rep1 load=10.16 decode 64 tokens in 29.658s = 2.158 tok/s (4 threads)
+arm rep1 load=18.05 decode 64 tokens in 57.881s = 1.106 tok/s (4 threads, prefill 16 tokens excluded)
+ref rep2 load=20.55 decode 64 tokens in 40.807s = 1.568 tok/s (4 threads)
+arm rep2 load=21.69 decode 64 tokens in 26.172s = 2.445 tok/s (4 threads, prefill 16 tokens excluded)
+ref rep3 load=20.07 decode 64 tokens in 8.651s = 7.398 tok/s (4 threads)
+arm rep3 load=18.86 decode 64 tokens in 36.301s = 1.763 tok/s (4 threads, prefill 16 tokens excluded)
+ref rep4 load=18.75 decode 64 tokens in 12.326s = 5.192 tok/s (4 threads)
+arm rep4 load=17.41 decode 64 tokens in 33.731s = 1.897 tok/s (4 threads, prefill 16 tokens excluded)
+ref rep5 load=18.94 decode 64 tokens in 11.778s = 5.434 tok/s (4 threads)
