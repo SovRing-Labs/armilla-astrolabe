@@ -2,7 +2,7 @@
  "date": "2026-10-13",
  "law": "mathkb.softmax.normalised_shift_invariant",
  "statement": "stable softmax sums to 1, is shift-invariant, and p_i / p_j = exp(x_i \u2212 x_j) (teeth: exp(x/10) passes the first two, fails the ratio)",
- "ledger": "<ai-stack>/projects/omniglyph/axioms/mathkb.json",
+ "ledger": "<math-core ledger>/mathkb.json",
  "N": 500,
  "L1_ring_kernel_pass": 500,
  "L1_first_fails": [],

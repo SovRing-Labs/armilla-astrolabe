@@ -2,7 +2,7 @@
 """
 Armilla — the ring softmax judged by math-core's cemented law (ABACUS-NL-0 step 3, 2026-10-13).
 
-The law is read from the ledger, not restated: ai-stack projects/omniglyph/axioms/mathkb.json,
+The law is read from the math-core ledger (mathkb.json, path in $MATHKB_LEDGER; not shipped in this repo), not restated:
 id "mathkb.softmax.normalised_shift_invariant": stable softmax sums to 1 (1e-9), is shift-invariant (1e-9), and
 p_i / p_0 = exp(x_i - x_0) to 1e-9 relative. Its own generator draws the cases (x in [-50, 50], 1-40 entries, c in [-100, 100]).
 `sm` in the law's prelude is replaced by the JIT ring kernel (jit_nl.Kernel), so the law runs on the abacus' answers.
@@ -17,7 +17,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import jit_nl, ring_nl as RN
 from decimal import Decimal
 
-LEDGER = os.path.expanduser("~/ai-stack/projects/omniglyph/axioms/mathkb.json")
+LEDGER = os.environ.get("MATHKB_LEDGER") or sys.exit("law_gate.py: set MATHKB_LEDGER to the math-core ledger mathkb.json")
 LAW_ID = "mathkb.softmax.normalised_shift_invariant"
 
 def load_law():

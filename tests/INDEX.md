@@ -1,6 +1,6 @@
-# armilla-astrolabe tests — index (ai-stack PROCEDURES § When testing)
+# armilla-astrolabe tests — index
 Before a new test, search this file and `experiments/*/README.md`; run only if none answers it. Harness and result paths are relative to the repo root (`experiments/abacus_nl/`).
-Later ABACUS-NL-1..3 runs (CUDA trainer, ring head term speed, avoid race, sub-base) live in `projects/omni-gpu/tests/INDEX.md` (ai-stack, branch opus-gpu/work).
+Later ABACUS-NL-1..3 runs (CUDA trainer, ring head term speed, avoid race, sub-base) live in the author's GPU project index (not published yet).
 
 | Date | Question | Harness | Result | tw id | Verdict |
 |---|---|---|---|---|---|

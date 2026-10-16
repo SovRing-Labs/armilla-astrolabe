@@ -12,5 +12,5 @@ no floating point anywhere, bit-exact and independent of summation order.
 
 Method sources (clean-room, from published descriptions): RNS scaling (Szabo & Tanaka 1967), mixed-radix conversion,
 Newton reciprocal, atanh series for ln, Ozaki Scheme II for the RNS GEMM framing (arXiv 2504.08009).
-Run instructions and gotchas: `~/ai-stack/docs/systems/omniring-abacus/MANUAL.md` § Ring non-linear ops. Plan + status log:
-`~/ai-stack/_Pads/worker/claude/ABACUS-NL-0.plan.md`.
+Run instructions: each harness's docstring states its pass rules, inputs and output file; `law_gate.py` needs the math-core
+law ledger (`mathkb.json`, not shipped here) named by `MATHKB_LEDGER`.
